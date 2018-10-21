@@ -1,0 +1,180 @@
+// Mixins
+// -----------------------------
+
+// background color/color
+@mixin bg-text-color($bg-color, $text-color) {
+  background-color: $bg-color;
+  color: $text-color;
+}
+
+// border radius
+@mixin rounded-corners($val) {
+  -webkit-border-radius: $val;
+  -moz-border-radius: $val;
+  border-radius: $val;
+}
+
+// box model
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+  -moz-box-sizing: $box-model; // Firefox <= 19
+  box-sizing: $box-model;
+}
+
+// box shadow
+@mixin box-shadow($box-shadow) {
+  -webkit-box-shadow: $box-shadow; // Safari <= 5
+  -moz-box-shadow: $box-shadow; // Firefox <= 19
+  box-shadow: $box-shadow;
+}
+
+// user avatar
+@mixin avatar-basic($length, $radius) {
+  width: $length;
+  height: $length;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+// font-size
+@mixin font-size($size) {
+  font-size: $size;
+}
+
+// fonts
+@mixin font-helvetica{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+@mixin text-line-height {
+  line-height: 1.5;
+}
+
+// typography generic
+@mixin h5 {
+  @include text-line-height;
+  font-size: 16px;
+  font-weight: 500;
+}
+@mixin h6 {
+  @include text-line-height;
+  font-size: 14px;
+  font-weight: 500;
+}
+@mixin para {
+  @include text-line-height;
+  font-size: 14px;
+}
+@mixin small-print {
+  @include text-line-height;
+  font-size: 12px;
+}
+
+// typography mobile
+@mixin h1-m {
+  @include text-line-height;
+  font-size: 24px;
+}
+@mixin h2-m {
+  font-size: 22px;
+  @include text-line-height;
+}
+@mixin h3-m {
+  @include text-line-height;
+  font-size: 18px;
+}
+@mixin h4-m {
+  @include text-line-height;
+  font-size: 16px;
+}
+
+// typography desktop
+@mixin h1-d {
+  font-size: 36px;
+  @include text-line-height;
+}
+@mixin h2-d {
+  @include text-line-height;
+  font-size: 28px;
+}
+@mixin h3-d {
+  @include text-line-height;
+  font-size: 20px;
+}
+@mixin h4-d {
+  @include text-line-height;
+  font-size: 18px;
+}
+
+// Flex container
+@mixin flexbox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+// vertically align any relatively positioned element
+@mixin vertical-align-relative() {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+// align content vertically inside a parent container
+@mixin vertical-align-content() {
+  @include flexbox;
+  height:auto;
+  align-items:center;
+}
+
+// generic transform
+@mixin transform($transforms) {
+  -webkit-transform: $transforms;
+  -moz-transform: $transforms;
+  -ms-transform: $transforms;
+  transform: $transforms;
+}
+
+// rotate
+@mixin rotate ($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+
+// scale
+@mixin scale($scale) {
+  @include transform(scale($scale));
+}
+
+// translate 2d
+@mixin translate($x, $y) {
+  @include transform(translate($x, $y));
+}
+
+// translate 3d
+@mixin translate3d($x, $y, $z) {
+  @include transform(translate3d($x, $y, $z));
+}
+
+// skew
+@mixin skew($x, $y) {
+  @include transform(skew(#{$x}deg, #{$y}deg));
+}
+
+//transform origin
+@mixin transform-origin($origin) {
+  -webkit-transform-origin: $origin;
+  -moz-transform-origin: $origin;
+  transform-origin: $origin;
+}
+
+// simple transition
+@mixin transition($transitions) {
+  -webkit-transition: $transitions;
+  -moz-transition: $transitions;
+  transition: $transitions;
+}

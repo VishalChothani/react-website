@@ -1,3 +1,5 @@
-h1{
-  text-align: center;
-}
+@import "./scss/mixins.scss";
+@import "./scss/variables.scss";
+@import "./scss/grid.scss";
+@import "./scss/utilities.scss";
+@import "./scss/typography.scss";
