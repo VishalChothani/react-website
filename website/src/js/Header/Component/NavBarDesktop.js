@@ -12,9 +12,9 @@ export default class NavBarDesktop extends Component{
         <li className="h4 pointer">
           <img className="logo" src={logo} alt="Logo" />
         </li>
-        <li className="h4 pointer">Gift Cards</li>
+        <li className="h4 pointer">Gifts</li>
         <li className="h4 pointer">About Us</li>
-        <li className="h4 pointer">Contact Us</li>
+        <li className="h4 pointer">Contact</li>
       </ul>
     )
   }

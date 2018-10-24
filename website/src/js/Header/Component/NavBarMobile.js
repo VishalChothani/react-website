@@ -9,9 +9,9 @@ export default class NavBarMobile extends Component{
           <li className="h3 padding-v-sm uppercase">Women</li>
           <li className="h3 padding-v-sm uppercase">Men</li>
           <li className="h3 padding-v-sm uppercase">Kids</li>
-          <li className="h3 padding-v-sm uppercase">Gift Cards</li>
+          <li className="h3 padding-v-sm uppercase">Gifts</li>
           <li className="h3 padding-v-sm uppercase">About Us</li>
-          <li className="h3 padding-v-sm uppercase">Contact Us</li>
+          <li className="h3 padding-v-sm uppercase">Contact</li>
         </ul>
       </nav>
     )

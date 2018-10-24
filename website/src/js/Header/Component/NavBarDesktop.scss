@@ -2,8 +2,9 @@
 
 .nav-bar-desktop{
   justify-content: center;
+  align-items: center;
   li{
     display: inline-flex;
-    margin: auto;
+    margin: 0 25px;
   }
 }
