@@ -1,0 +1,17 @@
+@import "../../../scss/mixins.scss";
+
+.mobile-header-bar{
+  position: fixed;
+  top: 0px;
+  height: 50px;
+  display: flex;
+  @include box-sizing(border-box);
+  .fas{
+    @include font-size(22px);
+    margin: auto 0;
+    width: 22px;
+  }
+  .logo{
+    margin: auto;
+  }
+}
