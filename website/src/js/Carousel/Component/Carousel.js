@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import NukaCarousel from 'nuka-carousel';
 import classNames from 'classnames';
 import heroImg from '../../../img/heroImg.jpeg';
-import './Carousel.scss';
 
 // This carousel can be modified but no need as of now.
+// TODO(Vishal): Add renderBottomCenterControls to desktop only.
 export default class Carousel extends Component{
   render(){
     return(
@@ -21,6 +21,10 @@ export default class Carousel extends Component{
             onClick={nextSlide}
           >
           </span>
+        )}
+
+        renderBottomCenterControls={() => (
+          <React.Fragment></React.Fragment>
         )}
       >
         <img src={heroImg} alt="Img 1" />

@@ -8,7 +8,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Carousel />
+        <div className="hero-carousel">
+          <Carousel />
+        </div>
       </div>
     );
   }
