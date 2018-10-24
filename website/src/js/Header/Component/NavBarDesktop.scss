@@ -1,8 +1,11 @@
 @import "../../../scss/mixins.scss";
+@import "../../../scss/variables.scss";
 
 .nav-bar-desktop{
   justify-content: center;
   align-items: center;
+  background-color: $black;
+  z-index: 1;
   li{
     display: inline-flex;
     margin: 0 25px;

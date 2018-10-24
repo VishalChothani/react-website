@@ -1,10 +1,13 @@
 @import "../../../scss/mixins.scss";
+@import "../../../scss/variables.scss";
 
 .header-bar{
   position: fixed;
   top: 0px;
   height: 50px;
   display: flex;
+  background-color: $black;
+  z-index: 1;
   @include box-sizing(border-box);
   .fas{
     @include font-size(22px);
