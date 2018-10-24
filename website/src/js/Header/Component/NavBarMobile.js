@@ -4,7 +4,7 @@ import './NavBarMobile.scss';
 export default class NavBarMobile extends Component{
   render(){
     return(
-      <nav className="nav-bar">
+      <nav className="nav-bar-mobile">
         <ul>
           <li className="h3 padding-v-sm uppercase">Women</li>
           <li className="h3 padding-v-sm uppercase">Men</li>

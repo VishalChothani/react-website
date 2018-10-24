@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './HeaderMain.scss';
 import NavBarMobile from './NavBarMobile';
+import NavBarDesktop from './NavBarDesktop';
 import logo from '../../../img/logo.png';
 import configurationService from '../../../js/Common/configurationService';
 
@@ -24,12 +25,15 @@ export default class HeaderMain extends Component{
     return(
       <React.Fragment>
         { isInMobile &&
-          <header className="mobile-header-bar width-full border-bot padding-h-md">
+          <header className="header-bar width-full border-bot padding-h-md">
             { !isNavBarOpen && <span className="fas fa-bars" onClick={() => this.openMobileNavBar()}></span> }
             { isNavBarOpen && <span className="fas fa-times" onClick={() => this.openMobileNavBar()}></span> }
             <img className="logo" src={logo} alt="Logo" />
             { isNavBarOpen && <NavBarMobile /> }
           </header> 
+        }
+        { !isInMobile && 
+          <NavBarDesktop />
         }
         </React.Fragment>
     )
