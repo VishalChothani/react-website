@@ -1,0 +1,71 @@
+@import "../../../scss/mixins.scss";
+@import "../../../scss/variables.scss";
+
+.how-it-works-content{
+  min-height: 80px;
+  .how-it-works-icon{
+    position: relative;
+    @include font-size(30px);
+    margin-top: 13px;
+    &:after{
+      content: '';
+      position: absolute;
+      width: 1px;
+      height: 45px;
+      background-color: $black;
+      top: 40px;
+      left: 15px;
+    }
+    // For some reason last-of-type isnt working
+    &.fa-smile-beam:after{
+      width: 0;
+    }
+  }
+  .how-it-works-title{
+    line-height: 1;
+  }
+  .how-it-works-info{
+    position: absolute;
+    top: 0;
+    margin-left: 14%;
+  }
+}
+
+// Media queries
+// -------------------------
+// Only for Ipad 
+@media only screen and (min-width: $screen-sm) and (max-width: $screen-md) {
+  .how-it-works-section{
+    margin-left: 19%;
+  }
+}
+@media only screen and (min-width: $screen-md) {
+  .how-it-works-section{
+    @include flexbox;
+  }
+  .how-it-works-content{
+    display: inline;
+    margin: 0 auto;
+    width: 160px;
+    .how-it-works-icon{
+      margin: 0 0 15px 25%;
+      &:after{
+        content: '';
+        position: absolute;
+        width: 120px;
+        height: 2px;
+        background-color: $black;
+        top: 15px;
+        left: 45px;
+      }
+      // For some reason last-of-type isnt working
+      &.fa-smile-beam:after{
+        width: 0;
+      }
+    }
+    .how-it-works-info{
+      margin: 0;
+      position: static;
+    }
+  }
+}
