@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import classNames from 'classnames';
-import configurationService from '../../../js/Common/configurationService';
-import './HowItWorks.scss';
+import configurationService from '../../Common/ConfigurationService';
+import './how-it-works.scss';
 
-export default class HowItWorks extends Component{
+export default class HowItWorksComponent extends Component{
   render(){
     const isInMobile = configurationService.isInMobile();
     return(

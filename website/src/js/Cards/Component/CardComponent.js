@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './Card.scss';
 
-export default class Cards extends Component{
+export default class CardComponent extends Component{
   render(){
     const {
       alt,

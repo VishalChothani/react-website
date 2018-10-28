@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.scss';
 import Header from './js/Header/Container/HeaderContainer';
-import Carousel from './js/Carousel/Component/Carousel';
-import Card from './js/Cards/Component/Card';
-import HowItWorks from './js/HowItWorks/Component/HowItWorks';
+import Carousel from './js/Carousel/Component/CarouselComponent';
+import Card from './js/Cards/Component/CardComponent';
+import HowItWorks from './js/HowItWorks/Component/HowItWorksComponent';
 import cardImg from '../src/img/card.jpeg';
 
 class App extends Component {

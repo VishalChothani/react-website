@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import './NavBarDesktop.scss';
+import './nav-bar-desktop.scss';
 import logo from '../../../img/logo.png';
 
-export default class NavBarDesktop extends Component{
+export default class NavBarDesktopComponent extends Component{
   render(){
     return(
       <ul className="header-bar nav-bar-desktop width-full border-bot">

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import NavBarMobile from '../Component/NavBarMobile';
-import NavBarDesktop from '../Component/NavBarDesktop';
+import NavBarMobile from '../Component/NavBarMobileComponent';
+import NavBarDesktop from '../Component/NavBarDesktopComponent';
 import logo from '../../../img/logo.png';
-import configurationService from '../../Common/configurationService';
+import configurationService from '../../Common/ConfigurationService';
 import { connect } from 'react-redux';
 
 class HeaderContainer extends Component{

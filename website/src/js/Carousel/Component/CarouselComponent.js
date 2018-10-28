@@ -5,7 +5,7 @@ import heroImg from '../../../img/heroImg.jpeg';
 
 // This carousel can be modified but no need as of now.
 // TODO(Vishal): Add renderBottomCenterControls to desktop only.
-export default class Carousel extends Component{
+export default class CarouselComponent extends Component{
   render(){
     return(
       <NukaCarousel

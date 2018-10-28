@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './NavBarMobile.scss';
+import './nav-bar-mobile.scss';
 
-export default class NavBarMobile extends Component{
+export default class NavBarMobileComponent extends Component{
   
   renderList(){
     return this.props.headerList.map((headerList) => {
