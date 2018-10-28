@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Header from './js/Header/Component/HeaderMain';
+import Header from './js/Header/Container/HeaderContainer';
 import Carousel from './js/Carousel/Component/Carousel';
 import Card from './js/Cards/Component/Card';
 import HowItWorks from './js/HowItWorks/Component/HowItWorks';

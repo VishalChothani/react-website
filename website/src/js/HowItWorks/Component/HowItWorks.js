@@ -7,7 +7,7 @@ export default class HowItWorks extends Component{
   render(){
     const isInMobile = configurationService.isInMobile();
     return(
-      <section className={classNames('how-it-works margin-h margin-bot', {'padding' : !isInMobile})}>
+      <section className={classNames('how-it-works margin-h margin-bot-sm', {'padding' : !isInMobile})}>
         <div className="h2 align-center margin-bot">How It Works</div>
         <div className="how-it-works-section">
           <div className={classNames('how-it-works-content relative', {'margin-bot-sm': isInMobile})}>
@@ -15,8 +15,7 @@ export default class HowItWorks extends Component{
             <div className="how-it-works-info">
               <div className="how-it-works-title h4 margin-bot-sm">Book an appointment</div>
               <div className="how-it-works-desc">
-                Call or msg me to book an appointment on 
-                <span className="strong">NUMBER</span>
+                Call or msg me to book an appointment on NUMBER
               </div>
               </div>
           </div>
