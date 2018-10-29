@@ -6,7 +6,7 @@ export default class HowItWorksComponent extends Component{
     return(
       this.props.reviewsData.map((reviewsData) => {
         return (
-          <Card 
+          <Card key={reviewsData.index}
             src={reviewsData.userImg} 
             alt={reviewsData.alt} 
             comment={reviewsData.comment} 
