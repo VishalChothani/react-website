@@ -15,6 +15,9 @@
     position: absolute;
     top: 20px;
   }
+  .review-img{
+    @include avatar-basic(150px,150px);
+  }
 }
 
 // Media queries

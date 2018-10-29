@@ -11,7 +11,7 @@ class HowItWorksContainer extends Component{
       howItWorksData,
     } = this.props;
     return(
-      <section className={classNames('how-it-works margin-h margin-bot-sm', {'padding' : !isInMobile})}>
+      <section className={classNames('how-it-works margin-h', {'padding' : !isInMobile})}>
         <div className="h2 align-center margin-bot">How It Works</div>
         <div className="how-it-works-section">
           <HowItWorksComponent howItWorksData={howItWorksData} />
