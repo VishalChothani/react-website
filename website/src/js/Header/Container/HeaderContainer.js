@@ -1,46 +1,45 @@
 import React, {Component} from 'react';
-import NavBarMobile from '../Component/NavBarMobileComponent';
-import NavBarDesktop from '../Component/NavBarDesktopComponent';
-import logo from '../../../img/logo.png';
-import configurationService from '../../Common/ConfigurationService';
+import NavBar from '../Component/NavBarComponent';
+import logo from '../../../img/label.jpeg';
+
 import { connect } from 'react-redux';
 
 class HeaderContainer extends Component{
+
   constructor(){
     super();
     this.state = {
-      isNavBarOpen : false,
+      logoClassName : "logo",
+      headerBarClassName: "header-bar",
     }
   }
 
-  openMobileNavBar = () => {
-    this.setState({isNavBarOpen: !this.state.isNavBarOpen});
+  componentDidMount(){
+    window.onscroll = () => {
+      if (document.documentElement.scrollTop > 0) {
+        this.setState({ logoClassName: "logo compact" });
+        this.setState({ headerBarClassName: "header-bar add-background" });
+      } else {
+        this.setState({ headerBarClassName: "header-bar" });
+      }
+    }
   }
 
   render(){
-    const isInMobile = configurationService.isInMobile();
-    const {
-      isNavBarOpen,
-    } = this.state;
-
     const {
       headerList,
     } = this.props;
 
+    const {
+      logoClassName,
+      headerBarClassName,
+    } = this.state;
+  
     return(
-      <React.Fragment>
-        { isInMobile &&
-          <header className="header-bar width-full border-bot padding-h-md">
-            { !isNavBarOpen && <span className="fas fa-bars" onClick={() => this.openMobileNavBar()}></span> }
-            { isNavBarOpen && <span className="fas fa-times" onClick={() => this.openMobileNavBar()}></span> }
-            <img className="logo" src={logo} alt="Logo" />
-            { isNavBarOpen && <NavBarMobile  headerList={headerList} /> }
-          </header> 
-        }
-        { !isInMobile && 
-          <NavBarDesktop />
-        }
-        </React.Fragment>
+      <div className={headerBarClassName}>
+        <img className={logoClassName} src={logo} alt="logo" />
+        <NavBar headerList={headerList} />
+      </div>
     )
   }
 }

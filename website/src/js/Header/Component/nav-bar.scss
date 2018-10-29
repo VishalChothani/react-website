@@ -2,15 +2,15 @@
 @import "../../../scss/variables.scss";
 @import "./header-main.scss";
 
-.nav-bar-mobile{
+.nav-bar{
+  @include vertical-align-content();
   position: fixed;
-  top: 50px;
+  top: 0;
   left: 0;
-  height: 100%;
+  height: 100vh;
   width: 100%;
-  background-color: $white;
-  li{
-    border-bottom: 1px solid $gray-light;
-    padding-left: 20px;
-  }
+  background-color: $black;
+  color: $white;
+  z-index: 1;
+  opacity: 0.8;
 }

@@ -2,19 +2,39 @@
 @import "../../../scss/variables.scss";
 
 .header-bar{
+  height: 70px;
   position: fixed;
-  top: 0px;
-  height: 50px;
-  display: flex;
-  background-color: $white;
-  z-index: 1;
-  @include box-sizing(border-box);
-  .fas{
-    @include font-size(22px);
-    margin: auto 0;
-    width: 22px;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  &.add-background{
+    background: $black;
   }
-  .logo{
-    margin: auto;
+}
+.header-icon{
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: $gray-lightest;
+  padding: 20px;
+  z-index: 2;
+  .fas{
+    @include font-size(35px);
+    width: 35px;
+  }
+}
+.logo{
+  position: fixed;
+  width: 40%;
+  top: 10%;
+  transform: translateX(-50%);
+  left: 50%;
+  @include transition(all 300ms ease-in);
+  z-index: 1;
+  &.compact{
+    width: 120px;
+    top: 10px;
+    left: 1%;
+    transform: none;
   }
 }
