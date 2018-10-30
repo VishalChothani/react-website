@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './nav-bar.scss';
 
-export default class NavBarMobileComponent extends Component{
+export default class NavBarComponent extends Component{
 
   constructor(){
     super();

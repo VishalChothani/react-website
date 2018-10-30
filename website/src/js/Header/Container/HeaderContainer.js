@@ -20,6 +20,7 @@ class HeaderContainer extends Component{
         this.setState({ logoClassName: "logo compact" });
         this.setState({ headerBarClassName: "header-bar add-background" });
       } else {
+        this.setState({ logoClassName: "logo" });
         this.setState({ headerBarClassName: "header-bar" });
       }
     }

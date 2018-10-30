@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Card from '../../Cards/Component/CardComponent';
 
-export default class HowItWorksComponent extends Component{
+export default class ReviewsComponent extends Component{
   render(){
     return(
       this.props.reviewsData.map((reviewsData) => {
