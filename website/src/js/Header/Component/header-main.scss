@@ -7,9 +7,7 @@
   width: 100%;
   top: 0;
   z-index: 2;
-  &.add-background{
-    background: $black;
-  }
+  // background: $black;
 }
 .header-icon{
   position: fixed;
@@ -18,12 +16,15 @@
   color: $gray-lightest;
   padding: 20px;
   z-index: 2;
+  color: $white;
+  background-color: $black;
+  opacity: 0.8;
   .fas{
     @include font-size(35px);
-    width: 35px;
+    width: 31px;
   }
 }
-.logo{
+.fixed-logo{
   position: fixed;
   width: 40%;
   top: 10%;

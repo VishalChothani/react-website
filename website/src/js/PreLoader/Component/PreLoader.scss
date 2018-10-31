@@ -7,9 +7,9 @@
   object-fit: cover;
   background: $black;
   background: url('../../../img/pre-loader-background.jpg') no-repeat fixed center;
-  &.success{
-    @include animation(slide-out-top 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both);
-  }
+  position: fixed;
+  z-index: 3;
+  @include animation(swing-out-left-fwd 3s cubic-bezier(0.600, -0.280, 0.735, 0.045) 1s both);
   .tag-line{
     position: absolute;
     top: 30%;
@@ -34,6 +34,3 @@
     }
   }
 }
-
-// -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    //       animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
