@@ -1,0 +1,39 @@
+@import "../../../scss/mixins.scss";
+@import "../../../scss/variables.scss";
+
+.pre-loader-wrapper{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  background: $black;
+  background: url('../../../img/pre-loader-background.jpg') no-repeat fixed center;
+  &.success{
+    @include animation(slide-out-top 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both);
+  }
+  .tag-line{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    @include transform(translateX(-50%));
+    letter-spacing: 15px;
+  }
+  .bar{
+    border: 2px solid $white;
+  }
+  .logo{
+    @include animation(focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both);
+  }
+}
+
+// Media queries
+// -------------------------
+@media only screen and (min-width: $screen-sm) {
+  .pre-loader-wrapper{
+    .logo{
+      width: 400px;
+    }
+  }
+}
+
+// -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    //       animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;

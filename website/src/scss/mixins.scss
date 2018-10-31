@@ -178,3 +178,9 @@
   -moz-transition: $transitions;
   transition: $transitions;
 }
+
+@mixin animation($animation) {
+  -webkit-animation: $animation;
+  -moz-animation: $animation;
+  animation: $animation;
+}
