@@ -11,7 +11,16 @@ export default class HomePageComponent extends Component{
     return (
       <React.Fragment>
         <Header />
-        <img alt="" className="heroImg" srcSet="https://addictedtobeauty.com/wp-content/uploads/atb-2017-modeles-trio-photo-sam-stonge.png 2600w, https://addictedtobeauty.com/wp-content/uploads/atb-2017-modeles-trio-photo-sam-stonge-300x200.png 300w, https://addictedtobeauty.com/wp-content/uploads/atb-2017-modeles-trio-photo-sam-stonge-768x512.png 768w, https://addictedtobeauty.com/wp-content/uploads/atb-2017-modeles-trio-photo-sam-stonge-1024x683.png 1024w, https://addictedtobeauty.com/wp-content/uploads/atb-2017-modeles-trio-photo-sam-stonge-400x267.png 400w, https://addictedtobeauty.com/wp-content/uploads/atb-2017-modeles-trio-photo-sam-stonge-500x333.png 500w, https://addictedtobeauty.com/wp-content/uploads/atb-2017-modeles-trio-photo-sam-stonge-900x600.png 900w, https://addictedtobeauty.com/wp-content/uploads/atb-2017-modeles-trio-photo-sam-stonge-555x370.png 555w"></img>
+        
+        <picture>
+          <source srcset="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=3072" media="(min-width: 1440px)" /> 
+          <source srcset="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=1440" media="(min-width: 1024px)" /> 
+          <source srcset="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=1229" media="(min-width: 640px)" /> 
+          <source srcset="https://lsco3.scene7.com/is/image/lsco/A2_TruckerJacket_Mobile?$ZF$&amp;wid=640" media="(min-width: 320px)" /> 
+          <img className="heroImg" src="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=1440" alt="TRUCKER JACKETS" />
+        </picture>
+
+
         {/* Maybe move the below cards code into a componenet */}
         <div className="card-container margin-top">
           <Card alt="card1" src={cardImg} />

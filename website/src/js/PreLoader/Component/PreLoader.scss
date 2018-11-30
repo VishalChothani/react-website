@@ -9,7 +9,7 @@
   background: url('../../../img/pre-loader-background.jpg') no-repeat fixed center;
   position: fixed;
   z-index: 3;
-  @include animation(swing-out-left-fwd 3s cubic-bezier(0.600, -0.280, 0.735, 0.045) 1s both);
+  @include animation(slide-out-bot 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s both);
   .tag-line{
     position: absolute;
     top: 30%;
