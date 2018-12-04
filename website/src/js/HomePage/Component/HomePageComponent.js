@@ -20,14 +20,24 @@ export default class HomePageComponent extends Component{
           <img className="heroImg" src="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=1440" alt="TRUCKER JACKETS" />
         </picture>
 
-
         {/* Maybe move the below cards code into a componenet */}
         <div className="card-container margin-v">
-          <Card alt="card1" content="Men" src={cardImg} />
-          <Card alt="card2" content="Women" src={cardImg} />
-          <Card alt="card3" content="Kids" src={cardImg} />
+          <Card>
+            <img className="responsive-img" src={cardImg} alt="card1" />
+            <div className="h2 card-content align-center width-full">Men</div>
+          </Card>
+          <Card>
+            <img className="responsive-img" src={cardImg} alt="card2" />
+            <div className="h2 card-content align-center width-full">Women</div>
+          </Card>
+          <Card>
+            <img className="responsive-img" src={cardImg} alt="card3" />
+            <div className="h2 card-content align-center width-full">Kids</div>
+          </Card>
         </div>
+
         <HowItWorks />
+        
         <Reviews />
         
       </React.Fragment>

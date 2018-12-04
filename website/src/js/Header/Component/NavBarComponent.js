@@ -26,7 +26,7 @@ export default class NavBarComponent extends Component{
     } = this.state;
     return(
       <React.Fragment>
-        <header className="header-icon">
+        <header className="header-icon pointer">
           { !isNavBarOpen && <span className="fas fa-bars" onClick={() => this.openMobileNavBar()}></span> }
           { isNavBarOpen && <span className="fas fa-times" onClick={() => this.openMobileNavBar()}></span> }
         </header>

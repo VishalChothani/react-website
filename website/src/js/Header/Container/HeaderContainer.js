@@ -13,7 +13,7 @@ class HeaderContainer extends Component{
     
     return(
       <div className="header-bar">
-        <img className="fixed-logo compact" src={logo} alt="logo" />
+        <img className="fixed-logo compact pointer" src={logo} alt="logo" />
         <NavBar headerList={headerList} />
       </div>
     )

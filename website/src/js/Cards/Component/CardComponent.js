@@ -4,15 +4,12 @@ import './Card.scss';
 export default class CardComponent extends Component{
   render(){
     const {
-      alt,
-      content,
-      src,
+      children,
     } = this.props;
 
     return(
       <div className="card relative align-center">
-        <img className="responsive-img" src={src} alt={alt} />
-        <div className="h2 card-content align-center width-full">{content}</div>
+        {children}
       </div>
     )
   }
