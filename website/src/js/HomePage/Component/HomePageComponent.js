@@ -3,7 +3,7 @@ import Header from '../../Header/Container/HeaderContainer';
 import Card from '../../Cards/Component/CardComponent';
 import HowItWorks from '../../HowItWorks/Containers/HowItWorksContainer';
 import Reviews from '../../Reviews/Containers/ReviewsContainer';
-import cardImg from '../../../img/card.jpeg';
+import cardImg from '../../../img/card.jpg';
 import './HomePage.scss';
 
 export default class HomePageComponent extends Component{
@@ -22,8 +22,8 @@ export default class HomePageComponent extends Component{
 
 
         {/* Maybe move the below cards code into a componenet */}
-        <div className="card-container margin-top">
-          <Card alt="card1" src={cardImg} />
+        <div className="card-container margin-v">
+          <Card alt="card1" content="Men" src={cardImg} />
           <Card alt="card2" content="Women" src={cardImg} />
           <Card alt="card3" content="Kids" src={cardImg} />
         </div>

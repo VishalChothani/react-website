@@ -1,3 +1,4 @@
+@import "./mixins.scss";
 
  @-webkit-keyframes focus-in {
   0% {
@@ -26,22 +27,65 @@
 
 @-webkit-keyframes slide-out-bot {
   0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    @include transform(translateY(0));
   }
   100% {
-    -webkit-transform: translateY(1000px);
-            transform: translateY(1000px);
+    @include transform(translateY(1000px));
   }
 }
 
 @keyframes slide-out-bot {
   0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    @include transform(translateY(0));
   }
   100% {
-    -webkit-transform: translateY(1000px);
-            transform: translateY(1000px);
+    @include transform(translateY(1000px));
+  }
+}
+
+ @-webkit-keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    @include transform(translateX(0%));
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    @include transform(translateX(-30px) rotate(-6deg));
+  }
+  30% {
+    @include transform(translateX(15px) rotate(6deg));
+  }
+  45% {
+    @include transform(translateX(-15px) rotate(-3.6deg));
+  }
+  60% {
+    @include transform(translateX(9px) rotate(2.4deg));
+  }
+  75% {
+    @include transform(translateX(-6px) rotate(-1.2deg));
+  }
+}
+@keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    @include transform(translateX(0%));
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    @include transform(translateX(-30px) rotate(-6deg));
+  }
+  30% {
+    @include transform(translateX(15px) rotate(6deg));
+  }
+  45% {
+    @include transform(translateX(-15px) rotate(-3.6deg));
+  }
+  60% {
+    @include transform(translateX(9px) rotate(2.4deg));
+  }
+  75% {
+    @include transform(translateX(-6px) rotate(-1.2deg));
   }
 }
