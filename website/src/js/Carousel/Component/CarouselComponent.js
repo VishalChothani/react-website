@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import NukaCarousel from 'nuka-carousel';
 import classNames from 'classnames';
-import heroImg from '../../../img/heroImg.jpeg';
 
-// This carousel can be modified but no need as of now.
-// TODO(Vishal): Add renderBottomCenterControls to desktop only.
 export default class CarouselComponent extends Component{
   render(){
+    const {
+      children,
+    } = this.props;
+
     return(
       <NukaCarousel
         renderCenterLeftControls={({ previousSlide, currentSlide }) => (
@@ -27,9 +28,7 @@ export default class CarouselComponent extends Component{
           <React.Fragment></React.Fragment>
         )}
       >
-        <img src={heroImg} alt="Img 1" />
-        <img src={heroImg} alt="Img 2" />
-        <img src={heroImg} alt="Img 3" />
+        {children}
       </NukaCarousel>
     )
   }

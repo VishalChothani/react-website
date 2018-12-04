@@ -10,7 +10,7 @@ class ReviewsContainer extends Component{
     return(
       <section className="reviews align-center">
         <div className="h2 margin-bot">Reviews</div>
-        <div className="reviews-section card-container">
+        <div className="reviews-section card-container margin-bot">
           <ReviewsComponent reviewsData={reviewsData} />
         </div>
       </section>

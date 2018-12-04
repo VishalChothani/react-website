@@ -1,19 +1,23 @@
 import React, {Component} from 'react';
-import Card from '../../Cards/Component/CardComponent';
+import Carousel from '../../Carousel/Component/CarouselComponent';
+import './Review.scss';
 
 export default class ReviewsComponent extends Component{
   render(){
+    const {
+      reviewsData,
+    } = this.props;
     return(
-      this.props.reviewsData.map((reviewsData) => {
-        return (
-          <Card key={reviewsData.index}
-            src={reviewsData.userImg} 
-            alt={reviewsData.alt} 
-            comment={reviewsData.comment} 
-            reviews={true}
-          />
-        )
-      })
+      <Carousel>
+        { 
+          reviewsData.map((reviewsData) => (
+            <div key={reviewsData.index}>
+              <img className="review-img responsive-img margin-bot-sm" src={reviewsData.userImg} alt={reviewsData.alt} />
+              <div className="review-comment margin-h align-center">{reviewsData.comment}</div>
+            </div>
+          )) 
+        }
+      </Carousel>
     )
   }
 }
