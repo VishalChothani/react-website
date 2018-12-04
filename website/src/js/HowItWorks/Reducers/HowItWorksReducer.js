@@ -3,7 +3,7 @@ export default () => {
     
     {
       "icon": "fa-calendar-alt",
-      "title": "Book an appointment",
+      "title": "Appointment",
       "desc": "Call or msg me to book an appointment on NUMBER",
     },
 
@@ -11,12 +11,6 @@ export default () => {
       "icon": "fa-boxes",
       "title": "Personalization",
       "desc": "Based on your needs, I'll personalization your clothes",
-    },
-
-    {
-      "icon": "fa-studiovinari",
-      "title": "Preferences",
-      "desc": "Something something Something something",
     },
 
     {

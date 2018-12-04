@@ -48,11 +48,11 @@
     margin: 0 auto;
     width: 160px;
     .how-it-works-icon{
-      margin: 0 0 15px 25%;
+      margin: 0 0 15px 0;
       &:after{
         content: '';
         position: absolute;
-        width: 130px;
+        width: 150px;
         height: 2px;
         background-color: $black;
         top: 15px;
