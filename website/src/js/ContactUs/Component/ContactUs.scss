@@ -1,0 +1,36 @@
+@import "../../../scss/mixins.scss";
+@import "../../../scss/variables.scss";
+
+.contact-us-content{
+  display: flex;
+  flex-wrap: wrap;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  background-color: $black;
+  color: $white;
+}
+.contact-us-info{
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: $screen-md) {
+  .contact-us-content{
+    width: 50%;
+    float: right;
+    height: 100vh;
+  }
+  .contact-us-icon{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 25%;
+  }
+  .contact-us-info{
+    padding-left: 33%;
+    background-color: transparent;
+  }
+}

@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Header from '../../Header/Container/HeaderContainer';
 import Card from '../../Cards/Component/CardComponent';
 import HowItWorks from '../../HowItWorks/Containers/HowItWorksContainer';
 import Reviews from '../../Reviews/Containers/ReviewsContainer';
@@ -8,9 +7,9 @@ import './HomePage.scss';
 
 export default class HomePageComponent extends Component{
   render(){
+    
     return (
       <React.Fragment>
-        <Header />
         
         <picture>
           <source srcset="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=3072" media="(min-width: 1440px)" /> 
@@ -39,7 +38,7 @@ export default class HomePageComponent extends Component{
         <HowItWorks />
         
         <Reviews />
-        
+
       </React.Fragment>
     )
   }

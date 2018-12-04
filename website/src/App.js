@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './App.scss';
 import PreLoaderScreen from './js/PreLoader/Component/PreLoaderComponent';
-import HomePage from './js/HomePage/Component/HomePageComponent';
+import ScreenLoaderComponent from './js/ScreenLoader/Component/ScreenLoaderComponent';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <PreLoaderScreen />
-        <HomePage />
+        <ScreenLoaderComponent />
       </div>
     );
   }
