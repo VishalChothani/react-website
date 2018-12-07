@@ -28,6 +28,22 @@
 .whatsapp{
   color: $whatsapp;
 }
+.gray-lightest{
+  color: $gray-lightest;
+}
+.gray-light{
+  color: $gray-light;
+}
+.gray-medium{
+  color: $gray-medium;
+}
+.gray-dark{
+  color: $gray-dark;
+}
+.gray-darkest{
+  color: $gray-darkest;
+}
+
 
 // Background
 .bg-white{
@@ -47,4 +63,19 @@
 }
 .bg-bright-green{
   background-color: $bright-green;
+}
+.bg-gray-lightest{
+  background-color: $gray-lightest;
+}
+.bg-gray-light{
+  background-color: $gray-light;
+}
+.bg-gray-medium{
+  background-color: $gray-medium;
+}
+.bg-gray-dark{
+  background-color: $gray-dark;
+}
+.bg-gray-darkest{
+  background-color: $gray-darkest;
 }

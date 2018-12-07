@@ -12,7 +12,7 @@ class HowItWorksContainer extends Component{
     } = this.props;
     return(
       <section className={classNames('how-it-works margin-h', {'padding' : !isInMobile})}>
-        <div className="h2 align-center margin-bot">How It Works</div>
+        <div className="h2 align-center margin-bot relative heading heading-white">How It Works</div>
         <div className="how-it-works-section">
           <HowItWorksComponent howItWorksData={howItWorksData} />
         </div>

@@ -105,6 +105,23 @@ h6, .h6 {
   @include small-print;
 }
 
+// Heading
+.heading{
+  &:after{
+    position: absolute;
+    content: '';
+    width: 10%;
+    height: 3px;
+    background: $black;
+    left: 45%;
+    bottom: -18%;
+  }
+  &.heading-white{
+    &:after{
+      background-color: $white;
+    }
+  }
+}
 
 // Media queries
 // -------------------------

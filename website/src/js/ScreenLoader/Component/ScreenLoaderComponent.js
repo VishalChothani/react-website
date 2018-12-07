@@ -8,8 +8,8 @@ export default class ScreenLoaderComponent extends Component{
     return (
       <React.Fragment>
         <Header />
-        {/* <HomePageComponent /> */}
-        <ContactUsComponent />
+        <HomePageComponent />
+        {/* <ContactUsComponent /> */}
       </React.Fragment>
     )
   }
