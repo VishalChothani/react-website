@@ -12,7 +12,7 @@
       position: absolute;
       width: 1px;
       height: 45px;
-      background-color: $black;
+      background-color: $white;
       top: 40px;
       left: 15px;
     }
@@ -50,13 +50,10 @@
     .how-it-works-icon{
       margin: 0 0 15px 0;
       &:after{
-        content: '';
-        position: absolute;
         width: 150px;
         height: 2px;
-        background-color: $black;
         top: 15px;
-        left: 45px;
+        left: 65px;
       }
       // For some reason last-of-type isnt working
       &.fa-smile-beam:after{

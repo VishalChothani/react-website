@@ -17,7 +17,6 @@
   }
 }
 .contact-us-section{
-  margin-top: $header-height;
   .contact-us-info{
     color: $black;
     background: $white;
@@ -45,8 +44,8 @@
 
 @media only screen and (min-width: $screen-sm) {
   .contact-us-map{
-    height: 100vh;
     opacity: 0.4;
+    height: 100vh;
   }
   .contact-us-section{
     @include flexbox();
