@@ -1,5 +1,6 @@
 export default () => {
   return [
+    'Home',
     'Men',
     'Women',
     'Kids',

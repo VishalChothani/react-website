@@ -11,8 +11,8 @@ html {
 body {
   @include font-size(14px);
   @include font-helvetica;
-  color: $gold-brown;
-  background-color: $dark-brown;
+  color: $white;
+  background-color: $black;
   margin: 0;
   padding: 0;
   height: 100%;

@@ -11,7 +11,7 @@ export default class HowItWorksComponent extends Component{
       this.props.howItWorksData.map((howItWorksData) => {
         return (
           <div key={howItWorksData.title} className={classNames('how-it-works-content relative', {'margin-bot-sm': isInMobile, 'align-center': !isInMobile})}>
-            <span className={classNames('how-it-works-icon fab', howItWorksData.icon)}></span>
+            <span className={classNames('how-it-works-icon fas', howItWorksData.icon)}></span>
             <div className="how-it-works-info">
               <div className="how-it-works-title h4 margin-bot-sm">{howItWorksData.title}</div>
               <div className="how-it-works-desc">

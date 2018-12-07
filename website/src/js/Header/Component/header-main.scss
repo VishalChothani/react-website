@@ -7,18 +7,15 @@
   width: 100%;
   top: 0;
   z-index: 2;
-  // background: $black;
 }
 .header-icon{
   position: fixed;
   top: 0;
   right: 0;
   color: $gray-lightest;
-  padding: 20px;
+  padding: 20px 20px 0 0;
   z-index: 2;
   color: $white;
-  background-color: $black;
-  opacity: 0.8;
   .fas{
     @include font-size(35px);
     width: 31px;

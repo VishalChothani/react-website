@@ -89,3 +89,20 @@
     @include transform(translateX(-6px) rotate(-1.2deg));
   }
 }
+
+@-webkit-keyframes rotate-center {
+  0% {
+    @include transform(rotate(0));
+  }
+  100% {
+    @include transform(rotate(360deg));
+  }
+}
+@keyframes rotate-center {
+  0% {
+    @include transform(rotate(0));
+  }
+  100% {
+    @include transform(rotate(360deg));
+  }
+}

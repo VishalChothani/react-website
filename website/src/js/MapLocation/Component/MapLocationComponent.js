@@ -5,9 +5,13 @@ import configurationService from '../../Common/ConfigurationService';
 export class MapLocationComponent extends Component{
   render(){
 
-    const style = {
+    const styleDesktop = {
       width: '50%',
       height: '100%'
+    }
+    const styleMobile = {
+      width: '100%',
+      height: '50%'
     }
     const isInMobile = configurationService.isInMobile();
 
@@ -18,7 +22,7 @@ export class MapLocationComponent extends Component{
           lat: 18.5108,
           lng: 73.8796
         }}
-        style={ !isInMobile ? style: ''}
+        style={ !isInMobile ? styleDesktop: styleMobile}
       >
         <Marker />
           

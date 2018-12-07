@@ -1,43 +1,60 @@
 import React, {Component} from 'react';
-import classNames from 'classnames';
-import MapLocationComponent from '../../MapLocation/Component/MapLocationComponent';
 import configurationService from '../../Common/ConfigurationService';
 import './ContactUs.scss';
+import mapImg from '../../../img/map.png';
 
 export default class ContactUsComponent extends Component{
   render(){
     const isInMobile = configurationService.isInMobile();
     return (
       <React.Fragment>
-        <MapLocationComponent />
-        <div className="contact-us-content">
-          <div className="contact-us-address relative width-full">
-            { !isInMobile && <span className="contact-us-icon fas fa-map-marker-alt red" /> }
-            <div className={classNames('contact-us-info width-full', {'padding-v-sm': isInMobile})}>
-              <div class="contact-us-title h3 margin-bot-10 white">Address</div>
-              <div class="contact-us-desc h5">Exhibition Rd, Camp,</div> 
-              <div class="contact-us-desc h5">Pune, Maharashtra 411001</div>
+
+        <section className="contact-us-section bootstrap-grid">
+          <img className="responsive-img contact-us-map desktop" src={mapImg} alt="Map" />
+          <div className="contact-us-info absolute bootstrap-grid padding">
+            <h1 className="heading align-center relative margin-bot">Get in Touch</h1>
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-xs-12 col-sm-4 margin-bot">
+                  <div className="contact-us-address align-center">
+                    <span className="contact-us-icon fas fa-map-marker-alt align-center" />
+                    <div className="h3 uppercase margin-top-10">Address</div>
+                    <div className="h5 margin-top-sm">Exhibition Rd, Camp, Pune, Maharashtra 411001.</div>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-4 margin-bot">
+                  <div className="contact-us-phone align-center">
+                    <span className="contact-us-icon fas fa-mobile align-center" />
+                    <div className="h3 uppercase margin-top-10">Phone</div>
+                    <div className="h5 margin-top-sm">4086469837</div>
+                  </div>
+                </div>
+
+                <div className="col-xs-12 col-sm-4 margin-bot">
+                  <div className="contact-us-email align-center">
+                    <span className="contact-us-icon fas fa-envelope align-center" />
+                    <div className="h3 uppercase margin-top-10">Email</div>
+                    <div className="h5 margin-top-sm">neha@gmail.com</div>
+                  </div>
+                </div>
+
+              </div>
+            
+              <div className="row">
+                <div className="col-xs-12 col-sm-offset-2 col-sm-8">
+                  <div className="social-media-icons margin-top">
+                    <a href=""><span className="fab fa-facebook-square facebook" /></a>
+                    <a href=""><span className="fab fa-instagram instagram" /></a>
+                    <a href=""><span className="fab fa-whatsapp-square whatsapp" /></a>
+                    <a href=""><span className="fab fa-snapchat-square snapchat" /></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-
-          <div className="contact-us-phone relative width-full">
-            { !isInMobile && <span className="contact-us-icon fas fa-mobile dark-blue" /> }
-            <div className={classNames('contact-us-info width-full', {'padding-v-sm': isInMobile})}>
-              <div class="contact-us-title h4 margin-bot-10">Phone</div>
-              <div class="contact-us-desc">4086469837</div>
-            </div>
-          </div>
-
-          <div className="contact-us-email relative width-full">
-            { !isInMobile && <span className="contact-us-icon fas fa-envelope bright-green" /> }
-            <div className={classNames('contact-us-info width-full', {'padding-v-sm': isInMobile})}>
-              <div class="contact-us-title h4 margin-bot-10">Email</div>
-              <div class="contact-us-desc">neha@gmail.com</div>
-            </div>
-          </div>
-
-          {/* TODO(Vishal): FAQ section (Yeti contactus page) */}
-        </div>
+        </section>
+        
+        
       </React.Fragment>
     )
   }

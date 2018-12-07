@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import NavBar from '../Component/NavBarComponent';
-import logo from '../../../img/label.jpeg';
+import logo from '../../../img/logo.png';
 
 import { connect } from 'react-redux';
 
@@ -13,7 +13,9 @@ class HeaderContainer extends Component{
     
     return(
       <div className="header-bar">
-        <img className="fixed-logo compact pointer" src={logo} alt="logo" />
+        <div className="fixed-logo compact pointer">
+          <img className="responsive-img" src={logo} alt="logo" />
+        </div>
         <NavBar headerList={headerList} />
       </div>
     )
