@@ -2,7 +2,6 @@ import nehaPhoto from '../../../img/neha.jpeg';
 
 export default () => {
   return [
-    
     {
       "userImg": nehaPhoto,
       "alt": "Neha's photo",
@@ -20,6 +19,5 @@ export default () => {
       "alt": "Neha's photo",
       "comment": "Very nice things to say Very nice things to say Very nice things to say Very nice things to say Very nice things to say Very nice things to say Very nice things to say Very nice things to say Very nice things to say",
     },
-
   ]
 }

@@ -11,8 +11,10 @@
   width: calc(100% - 30px);
   margin: 0 15px 15px;
   flex-direction: column;
-  &:hover{
-    @include animation(wobble-hor-bottom 1s both);
+  &.card-animation{
+    &:hover{
+      @include animation(wobble-hor-bottom 1s both);
+    }
   }
   .card-content{
     position: absolute;
