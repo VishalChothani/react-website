@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import classNames from 'classnames';
 import './nav-bar.scss';
 
 export default class NavBarComponent extends Component{
@@ -16,7 +17,13 @@ export default class NavBarComponent extends Component{
   
   renderList(){
     return this.props.headerList.map((headerList) => {
-      return ( <li className="h3 padding-v-sm uppercase" key={headerList}>{headerList}</li> )
+      return ( <li 
+        className={classNames('h3 padding-v-sm uppercase pointer', {'bright-green': headerList===this.props.activeHeaderOption})}
+        key={headerList} 
+        onClick={() => this.props.SelectHeaderOption(headerList)}>
+          {headerList}
+        </li> 
+      )
     })
   }
 
