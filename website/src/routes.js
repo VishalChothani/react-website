@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { Route } from "react-router-dom";
 import App from './App';
 import Header from './js/Header/Container/HeaderContainer';
+import HomePage from './js/HomePage/Component/HomePageComponent';
 import ContactUs from './js/ContactUs/Component/ContactUsComponent';
 import CollectionContainer from './js/Collection/Container/CollectionContainer';
 
@@ -11,6 +12,7 @@ export default class Router extends Component{
       <div>
         <Header />
         <Route exact path='/' component={App} />
+        <Route exact path='/home' component={HomePage} />
         <Route path='/contact' component={ContactUs} />
         <Route path='/men' component={CollectionContainer} />
         <Route path='/women' component={CollectionContainer} />

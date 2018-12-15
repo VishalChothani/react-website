@@ -3,6 +3,11 @@ import Card from '../../Cards/Component/CardComponent';
 import './Collection.scss';
 
 export default class CollectionComponent extends Component{
+
+  componentWillMount(){
+    window.scrollTo(0,0);
+  }
+
   render(){
     const {
       collectionData,

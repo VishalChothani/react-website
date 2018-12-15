@@ -1,11 +1,11 @@
 export default () => {
   return [
-    'Home',
-    'Men',
-    'Women',
-    'Kids',
-    'Gifts',
-    'About Us',
-    'Contact',
+    'home',
+    'men',
+    'women',
+    'kids',
+    'gifts',
+    'about us',
+    'contact',
   ]
 };

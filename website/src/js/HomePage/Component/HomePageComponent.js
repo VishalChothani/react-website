@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import Card from '../../Cards/Component/CardComponent';
 import HowItWorks from '../../HowItWorks/Containers/HowItWorksContainer';
 import Reviews from '../../Reviews/Containers/ReviewsContainer';
@@ -22,17 +23,26 @@ export default class HomePageComponent extends Component{
         {/* Maybe move the below cards code into a componenet */}
         <div className="card-container margin-v">
           <Card attention={true}>
-            <img className="responsive-img" src={cardImg} alt="card1" />
-            <div className="h2 card-content align-center width-full">Men</div>
+            <Link to="/men">
+              <img className="responsive-img" src={cardImg} alt="card1" />
+              <div className="h2 card-content align-center width-full">Men</div>
+            </Link>
           </Card>
+          
           <Card attention={true}>
-            <img className="responsive-img" src={cardImg} alt="card2" />
-            <div className="h2 card-content align-center width-full">Women</div>
+            <Link to="/women">
+              <img className="responsive-img" src={cardImg} alt="card2" />
+              <div className="h2 card-content align-center width-full">Women</div>
+            </Link>
           </Card>
+          
           <Card attention={true}>
-            <img className="responsive-img" src={cardImg} alt="card3" />
-            <div className="h2 card-content align-center width-full">Kids</div>
+            <Link to="/kids">
+              <img className="responsive-img" src={cardImg} alt="card3" />
+              <div className="h2 card-content align-center width-full">Kids</div>
+            </Link>
           </Card>
+
         </div>
 
         <HowItWorks />

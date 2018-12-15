@@ -5,7 +5,6 @@ import mapImg from '../../../img/map.png';
 
 export default class ContactUsComponent extends Component{
   render(){
-    const isInMobile = configurationService.isInMobile();
     return (
       <React.Fragment>
 
