@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
 import NukaCarousel from 'nuka-carousel';
 import classNames from 'classnames';
+import configurationService from '../../Common/ConfigurationService';
+import Slider from "react-slick";
+import './Carousel.scss';
+
 
 export default class CarouselComponent extends Component{
   render(){
@@ -8,28 +12,22 @@ export default class CarouselComponent extends Component{
       children,
     } = this.props;
 
+    const isInMobile = configurationService.isInMobile();
+
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: isInMobile ? false : true,
+      autoplay: true,
+    };
+
     return(
-      <NukaCarousel
-        renderCenterLeftControls={({ previousSlide, currentSlide }) => (
-          <span className={classNames('h1 fas fa-arrow-alt-circle-left pointer', {'display-none': currentSlide===0})}
-            onClick={previousSlide}
-          >
-          </span>
-        )}
-
-        renderCenterRightControls={({ nextSlide, currentSlide, slideCount }) => (
-          <span className={classNames('h1 fas fa-arrow-alt-circle-right pointer', {'display-none': currentSlide===slideCount-1})}
-            onClick={nextSlide}
-          >
-          </span>
-        )}
-
-        renderBottomCenterControls={() => (
-          <React.Fragment></React.Fragment>
-        )}
-      >
+      <Slider className="custom-carousel" {...settings}>
         {children}
-      </NukaCarousel>
+      </Slider>
     )
   }
 }

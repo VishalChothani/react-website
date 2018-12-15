@@ -11,9 +11,9 @@ export default class ReviewsComponent extends Component{
       <Carousel>
         { 
           reviewsData.map((reviewsData) => (
-            <div key={reviewsData.index}>
-              <img className="review-img responsive-img margin-bot-sm" src={reviewsData.userImg} alt={reviewsData.alt} />
-              <div className="review-comment margin-h align-center">{reviewsData.comment}</div>
+            <div className="align-center" key={reviewsData.index}>
+              <img className="review-img responsive-img margin-bot-sm align-center" src={reviewsData.userImg} alt={reviewsData.alt} />
+              <div className="review-comment margin-h">{reviewsData.comment}</div>
             </div>
           )) 
         }
