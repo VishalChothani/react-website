@@ -4,7 +4,9 @@ import App from './App';
 import Header from './js/Header/Container/HeaderContainer';
 import HomePage from './js/HomePage/Component/HomePageComponent';
 import ContactUs from './js/ContactUs/Component/ContactUsComponent';
-import CollectionContainer from './js/Collection/Container/CollectionContainer';
+import MensCollectionContainer from './js/MensCollection/Container/MensCollectionContainer';
+import WomensCollectionContainer from './js/WomensCollection/Container/WomensCollectionContainer';
+import KidsCollectionContainer from './js/KidsCollection/Container/KidsCollectionContainer';
 
 export default class Router extends Component{
   render(){
@@ -14,9 +16,9 @@ export default class Router extends Component{
         <Route exact path='/' component={App} />
         <Route exact path='/home' component={HomePage} />
         <Route path='/contact' component={ContactUs} />
-        <Route path='/men' component={CollectionContainer} />
-        <Route path='/women' component={CollectionContainer} />
-        <Route path='/kids' component={CollectionContainer} />
+        <Route path='/men' component={MensCollectionContainer} />
+        <Route path='/women' component={WomensCollectionContainer} />
+        <Route path='/kids' component={KidsCollectionContainer} />
       </div>
     )
   }
