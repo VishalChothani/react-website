@@ -14,10 +14,10 @@ export default class HomePageComponent extends Component{
       <React.Fragment>
         
         <picture>
-          <source srcset="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=3072" media="(min-width: 1440px)" /> 
-          <source srcset="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=1440" media="(min-width: 1024px)" /> 
-          <source srcset="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=1229" media="(min-width: 640px)" /> 
-          <source srcset="https://lsco3.scene7.com/is/image/lsco/A2_TruckerJacket_Mobile?$ZF$&amp;wid=640" media="(min-width: 320px)" /> 
+          <source srcSet="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=3072" media="(min-width: 1440px)" /> 
+          <source srcSet="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=1440" media="(min-width: 1024px)" /> 
+          <source srcSet="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=1229" media="(min-width: 640px)" /> 
+          <source srcSet="https://lsco3.scene7.com/is/image/lsco/A2_TruckerJacket_Mobile?$ZF$&amp;wid=640" media="(min-width: 320px)" /> 
           <img className="heroImg" src="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=1440" alt="TRUCKER JACKETS" />
         </picture>
 

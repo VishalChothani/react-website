@@ -1,0 +1,16 @@
+@import "../../../scss/mixins.scss";
+@import "../../../scss/variables.scss";
+
+.product-container{
+  padding-top: 90px;
+  .contact-us-icon{
+    @include font-size(30px);
+  }
+}
+// Media queries
+// -------------------------
+@media only screen and (min-width: $screen-sm) {
+  .product-container{
+    padding-top: 170px;
+  }
+}
