@@ -5,12 +5,17 @@ import CollectionComponent from '../Component/CollectionComponent';
 class CollectionContainer extends Component{
   render(){
     const {
-      MenData,
+      activeHeaderOption,
+      menData,
+      womenData,
+      kidsData,
     } = this.props;
     return(
       <section className="cateogry-collection">
-        <div className="h2 margin-v align-center">Men</div>
-        <CollectionComponent collectionData={MenData} />
+        <div className="h2 margin-v align-center capitalize">{activeHeaderOption}</div>
+        { activeHeaderOption === 'men' && <CollectionComponent collectionData={menData} /> }
+        { activeHeaderOption === 'women' && <CollectionComponent collectionData={womenData} /> }
+        { activeHeaderOption === 'kids' && <CollectionComponent collectionData={kidsData} /> }
       </section>
     )
   }
@@ -18,7 +23,10 @@ class CollectionContainer extends Component{
 
 const mapStateToProps = (state) => {
   return{
-    MenData: state.MenData,
+    menData: state.menData,
+    womenData: state.womenData,
+    kidsData: state.kidsData,
+    activeHeaderOption: state.activeHeaderOption,
   }
 }
 

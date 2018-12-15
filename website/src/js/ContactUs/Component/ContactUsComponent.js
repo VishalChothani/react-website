@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import configurationService from '../../Common/ConfigurationService';
 import './ContactUs.scss';
 import mapImg from '../../../img/map.png';
 
@@ -52,7 +51,6 @@ export default class ContactUsComponent extends Component{
             </div>
           </div>
         </section>
-        
         
       </React.Fragment>
     )
