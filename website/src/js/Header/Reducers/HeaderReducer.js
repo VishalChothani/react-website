@@ -1,11 +1,13 @@
+import {CONSTANTS} from '../../Common/Constants';
+
 export default () => {
   return [
-    'home',
-    'men',
-    'women',
-    'kids',
-    'gifts',
-    'about us',
-    'contact',
+    CONSTANTS.pages.home,
+    CONSTANTS.pages.men,
+    CONSTANTS.pages.women,
+    CONSTANTS.pages.kids,
+    CONSTANTS.pages.gifts,
+    CONSTANTS.pages.about,
+    CONSTANTS.pages.contact,
   ]
 };

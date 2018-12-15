@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import CollectionComponent from '../Component/CollectionComponent';
+import {CONSTANTS} from '../../Common/Constants';
 
 class CollectionContainer extends Component{
   render(){
@@ -13,9 +14,9 @@ class CollectionContainer extends Component{
     return(
       <section className="cateogry-collection">
         <div className="h2 margin-v align-center capitalize">{activeHeaderOption}</div>
-        { activeHeaderOption === 'men' && <CollectionComponent collectionData={menData} /> }
-        { activeHeaderOption === 'women' && <CollectionComponent collectionData={womenData} /> }
-        { activeHeaderOption === 'kids' && <CollectionComponent collectionData={kidsData} /> }
+        { activeHeaderOption === CONSTANTS.pages.men && <CollectionComponent collectionData={menData} /> }
+        { activeHeaderOption === CONSTANTS.pages.women && <CollectionComponent collectionData={womenData} /> }
+        { activeHeaderOption === CONSTANTS.pages.kids && <CollectionComponent collectionData={kidsData} /> }
       </section>
     )
   }

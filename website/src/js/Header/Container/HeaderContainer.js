@@ -6,6 +6,7 @@ import { connect } from 'react-redux';
 import { SelectHeaderOption } from '../Actions/HeaderAction';
 import { bindActionCreators } from 'redux';
 import { Link } from 'react-router-dom';
+import {CONSTANTS} from '../../Common/Constants';
 
 class HeaderContainer extends Component{
 
@@ -19,7 +20,7 @@ class HeaderContainer extends Component{
     return(
       <div className="header-bar">
         <div className="fixed-logo compact pointer">
-          <Link to="/home"><img className="responsive-img" src={logo} alt="logo" /></Link>
+          <Link to={CONSTANTS.pages.home}><img className="responsive-img" src={logo} alt="logo" /></Link>
         </div>
         <NavBar 
           headerList={headerList} 
