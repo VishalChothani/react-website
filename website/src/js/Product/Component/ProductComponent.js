@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
+import ReactImageMagnify from 'react-image-magnify';
 import cardImg from '../../../img/card.jpg';
 import './Product.scss';
+
+
 
 export default class ProductComponent extends Component{
   render(){
@@ -11,9 +14,24 @@ export default class ProductComponent extends Component{
             <div className="col-xs-12 col-sm-offset-1 col-sm-10">
               <div className="row">
                 <div className="col-xs-12 col-sm-6">
-                  <img className="responsive-img margin-bot" src={cardImg} alt="card1" />
+
+                  <ReactImageMagnify {...{
+                      smallImage: {
+                        alt: 'Wristwatch by Ted Baker London',
+                        isFluidWidth: true,
+                        src: cardImg,
+                      },
+                      largeImage: {
+                        src: cardImg,
+                        width: 1200,
+                        height: 1800
+                      },
+                      isHintEnabled: true,
+                      shouldHideHintAfterFirstActivation: false
+                    }} />
+
                 </div>
-                <div className="col-xs-12 col-sm-6">
+                <div className="col-xs-12 col-sm-6 product-info margin-top">
                   <h2>Product Name</h2>
                   <h5 className="margin-v">
                     I'm a product detail.

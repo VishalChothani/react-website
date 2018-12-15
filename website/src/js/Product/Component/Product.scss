@@ -6,6 +6,9 @@
   .contact-us-icon{
     @include font-size(30px);
   }
+  .product-info{
+    z-index: -1;
+  }
 }
 // Media queries
 // -------------------------
