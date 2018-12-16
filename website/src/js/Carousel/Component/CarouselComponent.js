@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import NukaCarousel from 'nuka-carousel';
-import classNames from 'classnames';
 import configurationService from '../../Common/ConfigurationService';
 import Slider from "react-slick";
 import './Carousel.scss';

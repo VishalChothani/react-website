@@ -14,8 +14,8 @@ export default class Router extends Component{
     return(
       <div>
         <Header />
-        <Route exact path='/' component={App} />
-        <Route exact path='/home' component={HomePage} />
+        <Route exact path='/' render={ ()=> <App /> }/>
+        <Route path='/home' component={HomePage} />
         <Route path='/contact' component={ContactUs} />
         <Route path='/men' component={MensCollectionContainer} />
         <Route path='/women' component={WomensCollectionContainer} />
