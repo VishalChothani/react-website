@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './PreLoader.scss';
-import logo from '../../../img/logo.png';
+import logo from '../../../img/label.jpeg';
 
 export default class PreLoaderComponent extends Component{
 

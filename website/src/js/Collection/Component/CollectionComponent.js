@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Card from '../../Cards/Component/CardComponent';
+import {Link} from 'react-router-dom';
 import './Collection.scss';
 
 export default class CollectionComponent extends Component{
@@ -17,8 +18,10 @@ export default class CollectionComponent extends Component{
         { 
           collectionData.map((collectionData) => (
             <Card key={collectionData.index}>
-              <img className="responsive-img margin-bot-sm" src={collectionData.productImg} alt={collectionData.alt} />
-              <div className="h4 product-title margin-bot align-center">{collectionData.title}</div>
+              <Link to={"/product/"+collectionData.productId}>
+                <img className="responsive-img margin-bot-sm" src={collectionData.productImg} alt={collectionData.alt} />
+                <div className="h4 product-title margin-bot align-center">{collectionData.title}</div>
+              </Link>
             </Card>
           )) 
         }

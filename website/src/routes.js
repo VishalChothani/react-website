@@ -20,7 +20,7 @@ export default class Router extends Component{
         <Route path='/men' component={MensCollectionContainer} />
         <Route path='/women' component={WomensCollectionContainer} />
         <Route path='/kids' component={KidsCollectionContainer} />
-        <Route path='/product' component={Product} />
+        <Route path='/product/:productId' component={Product} />
       </div>
     )
   }

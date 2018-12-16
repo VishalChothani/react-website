@@ -3,8 +3,6 @@ import ReactImageMagnify from 'react-image-magnify';
 import cardImg from '../../../img/card.jpg';
 import './Product.scss';
 
-
-
 export default class ProductComponent extends Component{
   render(){
     return(
