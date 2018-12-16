@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './ContactUs.scss';
 import mapImg from '../../../img/map.png';
+import {CONSTANTS} from '../../Common/Constants';
 
 export default class ContactUsComponent extends Component{
   render(){
@@ -41,10 +42,18 @@ export default class ContactUsComponent extends Component{
               <div className="row">
                 <div className="col-xs-12 col-sm-offset-2 col-sm-8">
                   <div className="social-media-icons margin-top">
-                    <a href=""><span className="fab fa-facebook-square facebook" /></a>
-                    <a href=""><span className="fab fa-instagram instagram" /></a>
-                    <a href=""><span className="fab fa-whatsapp-square whatsapp" /></a>
-                    <a href=""><span className="fab fa-snapchat-square snapchat" /></a>
+                    <a href={CONSTANTS.facebookLink} target="_blank" rel="noopener noreferrer">
+                      <span className="fab fa-facebook-square facebook" />
+                    </a>
+                    <a href={CONSTANTS.instagramLink} target="_blank" rel="noopener noreferrer">
+                      <span className="fab fa-instagram instagram" />
+                    </a>
+                    <a href={CONSTANTS.whatsappLink} target="_blank" rel="noopener noreferrer">
+                      <span className="fab fa-whatsapp-square whatsapp" />
+                    </a>
+                    <a href={CONSTANTS.snapchatLink} target="_blank" rel="noopener noreferrer">
+                      <span className="fab fa-snapchat-square snapchat" />
+                    </a>
                   </div>
                 </div>
               </div>
