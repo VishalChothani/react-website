@@ -8,6 +8,7 @@ import Product from './js/Product/Component/ProductComponent';
 import MensCollectionContainer from './js/MensCollection/Container/MensCollectionContainer';
 import WomensCollectionContainer from './js/WomensCollection/Container/WomensCollectionContainer';
 import KidsCollectionContainer from './js/KidsCollection/Container/KidsCollectionContainer';
+import AboutUs from './js/AboutUs/Component/AboutUsComponent';
 
 export default class Router extends Component{
   render(){
@@ -21,6 +22,7 @@ export default class Router extends Component{
         <Route path='/women' component={WomensCollectionContainer} />
         <Route path='/kids' component={KidsCollectionContainer} />
         <Route path='/product/:productId' component={Product} />
+        <Route path='/about' component={AboutUs} />
       </div>
     )
   }

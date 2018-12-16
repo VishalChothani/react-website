@@ -5,7 +5,7 @@ export const CONSTANTS = {
     women: "women",
     kids: "kids",
     gifts: "gifts",
-    about: "about us",
+    about: "about",
     contact: "contact",
   },
   facebookLink: 'https://www.facebook.com/pages/category/Women-s-Clothing-Store/Neha-Chothani-Label-1415215792080120/',
