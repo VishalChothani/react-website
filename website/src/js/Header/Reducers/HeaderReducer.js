@@ -6,7 +6,6 @@ export default () => {
     CONSTANTS.pages.men,
     CONSTANTS.pages.women,
     CONSTANTS.pages.kids,
-    CONSTANTS.pages.gifts,
     CONSTANTS.pages.about,
     CONSTANTS.pages.contact,
   ]
