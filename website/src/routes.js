@@ -4,7 +4,7 @@ import App from './App';
 import Header from './js/Header/Container/HeaderContainer';
 import HomePage from './js/HomePage/Component/HomePageComponent';
 import ContactUs from './js/ContactUs/Component/ContactUsComponent';
-import Product from './js/Product/Component/ProductComponent';
+import Product from './js/Product/Container/ProductContainer';
 import MensCollectionContainer from './js/MensCollection/Container/MensCollectionContainer';
 import WomensCollectionContainer from './js/WomensCollection/Container/WomensCollectionContainer';
 import KidsCollectionContainer from './js/KidsCollection/Container/KidsCollectionContainer';

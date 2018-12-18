@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
-import CollectionComponent from '../../Collection/Component/CollectionComponent';
+import CollectionContainer from '../../Collection/Container/CollectionContainer';
 
 class KidsCollectionContainer extends Component{
   render(){
@@ -10,7 +10,7 @@ class KidsCollectionContainer extends Component{
     return(
       <section className="cateogry-collection">
         <div className="h2 margin-v align-center capitalize">Kids</div>
-        <CollectionComponent collectionData={kidsData} />
+        <CollectionContainer collectionData={kidsData} />
       </section>
     )
   }

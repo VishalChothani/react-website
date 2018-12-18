@@ -3,7 +3,11 @@ import Card from '../../Cards/Component/CardComponent';
 import {Link} from 'react-router-dom';
 import './Collection.scss';
 
-export default class CollectionComponent extends Component{
+import { connect } from 'react-redux';
+import { ProductClicked } from '../Actions/CollectionAction';
+import { bindActionCreators } from 'redux';
+
+class CollectionContainer extends Component{
 
   componentWillMount(){
     window.scrollTo(0,0);
@@ -12,6 +16,7 @@ export default class CollectionComponent extends Component{
   render(){
     const {
       collectionData,
+      ProductClicked,
     } = this.props;
     return(
       <div className="card-container margin-v">
@@ -19,7 +24,7 @@ export default class CollectionComponent extends Component{
           collectionData.map((collectionData) => (
             <Card key={collectionData.index}>
               <Link to={"/product/"+collectionData.productId}>
-                <img className="responsive-img margin-bot-sm" src={collectionData.productImg} alt={collectionData.alt} />
+                <img onClick={() => {ProductClicked(collectionData)}} className="responsive-img margin-bot-sm" src={collectionData.productImg} alt={collectionData.alt} />
                 <div className="h4 product-title margin-bot align-center">{collectionData.title}</div>
               </Link>
             </Card>
@@ -29,3 +34,9 @@ export default class CollectionComponent extends Component{
     )
   }
 }
+
+const mapDispatchToProps = (dispatch) => {
+  return bindActionCreators({ProductClicked:ProductClicked}, dispatch);
+}
+
+export default connect('',mapDispatchToProps)(CollectionContainer);
