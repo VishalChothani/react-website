@@ -27,7 +27,7 @@ export default class NavBarComponent extends Component{
         className={classNames('h3 padding-v-sm uppercase pointer', {'bright-green': headerList===this.props.activeHeaderOption})}
         key={headerList} 
         onClick={ () => { this.activateHeaderOption(headerList) } }>
-          <Link to={headerList}>
+          <Link to={"/"+headerList}>
             {headerList}
           </Link>
         </li> 
