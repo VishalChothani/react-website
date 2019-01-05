@@ -20,7 +20,7 @@ class HeaderContainer extends Component{
     return(
       <div className="header-bar">
         <div className="fixed-logo compact pointer">
-          <Link to={CONSTANTS.pages.home}><img className="responsive-img" src={logo} alt="logo" /></Link>
+          <Link to={"/"+CONSTANTS.pages.home}><img className="responsive-img" src={logo} alt="logo" /></Link>
         </div>
         <NavBar 
           headerList={headerList} 

@@ -18,10 +18,10 @@ export default class Router extends Component{
         <Route exact path='/' render={ ()=> <App /> }/>
         <Route path='/home' component={HomePage} />
         <Route path='/contact' component={ContactUs} />
-        <Route path='/men' component={MensCollectionContainer} />
-        <Route path='/women' component={WomensCollectionContainer} />
-        <Route path='/kids' component={KidsCollectionContainer} />
-        <Route path='/product/:productId' component={Product} />
+        <Route exact path='/men' component={MensCollectionContainer} />
+        <Route exact path='/women' component={WomensCollectionContainer} />
+        <Route exact path='/kids' component={KidsCollectionContainer} />
+        <Route path='*/product/:productId' component={Product} />
         <Route path='/about' component={AboutUs} />
       </div>
     )

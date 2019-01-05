@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import CollectionContainer from '../../Collection/Container/CollectionContainer';
+import {CONSTANTS} from '../../Common/Constants';
 
 class KidsCollectionContainer extends Component{
   render(){
@@ -10,7 +11,7 @@ class KidsCollectionContainer extends Component{
     return(
       <section className="cateogry-collection">
         <div className="h2 margin-v align-center capitalize">Kids</div>
-        <CollectionContainer collectionData={kidsData} />
+        <CollectionContainer collectionData={kidsData} category={CONSTANTS.pages.kids} />
       </section>
     )
   }
