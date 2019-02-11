@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ReactImageMagnify from 'react-image-magnify';
 import './Product.scss';
 import {connect} from 'react-redux';
+import dressLarge1 from '../../../img/dressLarge1.jpg'
 
 class ProductContainer extends Component{
 
@@ -28,7 +29,7 @@ class ProductContainer extends Component{
                         src: productInfo.productImg,
                       },
                       largeImage: {
-                        src: productInfo.productImg,
+                        src: dressLarge1,
                         width: 1200,
                         height: 1800
                       },
