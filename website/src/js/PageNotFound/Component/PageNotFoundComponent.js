@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NotFoundComponent = () => {
+const PageNotFoundComponent = () => {
   return (
     <div className="cateogry-collection text-center">
       <h1 className="margin-top"> Page not found </h1>
@@ -9,4 +9,4 @@ const NotFoundComponent = () => {
   );
 }
 
-export default NotFoundComponent;
+export default PageNotFoundComponent;

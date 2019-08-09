@@ -9,7 +9,7 @@ import MensCollectionContainer from './js/MensCollection/Container/MensCollectio
 import WomensCollectionContainer from './js/WomensCollection/Container/WomensCollectionContainer';
 import KidsCollectionContainer from './js/KidsCollection/Container/KidsCollectionContainer';
 import AboutUs from './js/AboutUs/Component/AboutUsComponent';
-import NotFound from './js/NotFound/Component/NotFoundComponent';
+import PageNotFound from './js/PageNotFound/Component/PageNotFoundComponent';
 
 export default class Router extends Component{
   render(){
@@ -17,7 +17,7 @@ export default class Router extends Component{
       <div>
         <Header />
         <Switch>
-          <Route exact path='/' component={App}/>
+          <Route exact path='/' render={ ()=> <App /> } />
           <Route path='/home' component={HomePage} />
           <Route path='/contact' component={ContactUs} />
           <Route exact path='/men' component={MensCollectionContainer} />
@@ -25,7 +25,7 @@ export default class Router extends Component{
           <Route exact path='/kids' component={KidsCollectionContainer} />
           <Route path='*/product/:productId' component={Product} />
           <Route path='/about' component={AboutUs} />
-          <Route component={NotFound} />
+          <Route component={PageNotFound} />
         </Switch>
       </div>
     )

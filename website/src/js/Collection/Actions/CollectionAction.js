@@ -15,6 +15,6 @@ export const ProductLoaded = (productId, collections) => {
   });
   return {
     type: ACTION_TYPE.PRODUCT_LOADED,
-    payload: state[0],
+    payload: state[0] ? state[0] : null,
   };
 }

@@ -4,6 +4,7 @@ import './Product.scss';
 import {connect} from 'react-redux';
 import { ProductLoaded } from '../../Collection/Actions/CollectionAction';
 import { bindActionCreators } from 'redux';
+import PageNotFound from '../../PageNotFound/Component/PageNotFoundComponent';
 
 class ProductContainer extends Component{
 
@@ -50,6 +51,9 @@ class ProductContainer extends Component{
             </div>
           </div>
         }
+        { !productInfo && 
+          <PageNotFound />
+        }
       </section>
       
     )
@@ -57,7 +61,6 @@ class ProductContainer extends Component{
 }
 
 const mapStateToProps = (state) => {
-  console.log("State: ",state);
   return{
     productInfo: state.productInfo,
     womenData: state.womenData,
