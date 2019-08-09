@@ -6,3 +6,15 @@ export const ProductClicked = (product) => {
     payload: product,
   };
 }
+
+export const ProductLoaded = (productId, collections) => {
+  const state = collections.filter((product) => {
+    if(product.productId === productId){
+      return product;
+    }
+  });
+  return {
+    type: ACTION_TYPE.PRODUCT_LOADED,
+    payload: state[0],
+  };
+}
