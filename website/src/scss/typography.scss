@@ -10,7 +10,7 @@ html {
 }
 body {
   @include font-size(14px);
-  @include font-helvetica;
+  @include font-prompt;
   color: $white;
   background-color: $black;
   margin: 0;
@@ -29,7 +29,7 @@ input,
 textarea,
 label,
 select {
-  @include font-helvetica;
+  @include font-prompt;
 }
 
 .uppercase {

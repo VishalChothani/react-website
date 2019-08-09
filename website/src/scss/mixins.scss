@@ -43,8 +43,8 @@
 }
 
 // fonts
-@mixin font-helvetica{
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+@mixin font-prompt{
+  font-family: 'Prompt', sans-serif;
 }
 
 @mixin text-line-height {
