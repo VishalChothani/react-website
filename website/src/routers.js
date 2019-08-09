@@ -18,6 +18,7 @@ export default class Router extends Component{
         <Header />
         <Switch>
           <Route exact path='/' render={ ()=> <App /> } />
+          <Route path='/react-website' render={ ()=> <App /> } />
           <Route path='/home' component={HomePage} />
           <Route path='/contact' component={ContactUs} />
           <Route exact path='/men' component={MensCollectionContainer} />
