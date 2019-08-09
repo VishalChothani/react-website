@@ -16,7 +16,7 @@ class MensCollectionContainer extends Component{
         <div className="container">
           <div className="row">
             <div className="col-md-offset-2 col-md-8">
-              <img className="width-full" src={comingSoon} />
+              <img className="width-full" src={comingSoon} alt="coming soon" />
             </div>
           </div>
         </div>
