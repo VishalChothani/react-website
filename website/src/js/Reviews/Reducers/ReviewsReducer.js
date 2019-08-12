@@ -1,4 +1,3 @@
-import nehaPhoto from '../../../img/neha.jpeg';
 import sanskrutiPhoto from '../../../img/sanskruti.jpg';
 import nehaRuggerPhoto from '../../../img/neha_rugger.jpg';
 import pratikPhoto from '../../../img/pratik.jpg';

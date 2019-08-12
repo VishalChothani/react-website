@@ -1,4 +1,3 @@
-import productPhoto from '../../../img/card.jpg';
 import whiteRed from '../../../img/dress/smallPic/whiteRed.jpg';
 import whiteRedLarge from '../../../img/dress/largePic/whiteRedLarge.jpg';
 
@@ -12,7 +11,19 @@ import oneShoulderDress from '../../../img/dress/smallPic/oneShoulderDress.jpg'
 import orangeFlowerPrint from '../../../img/dress/smallPic/orangeFlowerPrint.jpg'
 import pinkCapeSleevesGown from '../../../img/dress/smallPic/pinkCapeSleevesGown.jpg'
 import pinkJacket from '../../../img/dress/smallPic/pinkJacket.jpg'
-import rawThumb from '../../../img/dress/smallPic/rawThumb.jpg'
+
+
+
+import brocadeDressLarge from '../../../img/dress/largePic/brocadeDressLarge.jpg'
+import crossOfStyleLarge from '../../../img/dress/largePic/crossOfStyleLarge.jpg'
+import goldBlackLarge from '../../../img/dress/largePic/goldBlackLarge.jpg'
+import goldMirrorWorkLehengaLarge from '../../../img/dress/largePic/goldMirrorWorkLehengaLarge.jpg'
+// import greyJacketLarge from '../../../img/dress/largePic/greyJacketLarge.jpg'
+import mustardLehengaTopLarge from '../../../img/dress/largePic/mustardLehengaTopLarge.jpg'
+// import oneShoulderDressLarge from '../../../img/dress/largePic/oneShoulderDressLarge.jpg'
+import orangeFlowerPrintLarge from '../../../img/dress/largePic/orangeFlowerPrintLarge.jpg'
+import pinkCapeSleevesGownLarge from '../../../img/dress/largePic/pinkCapeSleevesGownLarge.jpg'
+import pinkJacketLarge from '../../../img/dress/largePic/pinkJacketLarge.jpg'
 
 
 export default () => {
@@ -28,42 +39,33 @@ export default () => {
 
     {
       productId: "w02",
-      productImg: rawThumb,
-      alt: "product photo",
-      title: "Women Product Name",
-      desc: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
-      productImgLarge: rawThumb,
-    },
-
-    {
-      productId: "w03",
       productImg: crossOfStyle,
       alt: "product photo",
       title: "Women Product Name",
       desc: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
-      productImgLarge: crossOfStyle,
+      productImgLarge: crossOfStyleLarge,
     },
 
     {
-      productId: "w04",
+      productId: "w03",
       productImg: goldBlack,
       alt: "product photo",
       title: "Women Product Name",
       desc: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
-      productImgLarge: goldBlack,
+      productImgLarge: goldBlackLarge,
     },
 
     {
-      productId: "w05",
+      productId: "w04",
       productImg: goldMirrorWorkLehenga,
       alt: "product photo",
       title: "Women Product Name",
       desc: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
-      productImgLarge: goldMirrorWorkLehenga,
+      productImgLarge: goldMirrorWorkLehengaLarge,
     },
 
     {
-      productId: "w06",
+      productId: "w05",
       productImg: greyJacket,
       alt: "product photo",
       title: "Women Product Name",
@@ -72,57 +74,57 @@ export default () => {
     },
 
     {
-      productId: "w07",
+      productId: "w06",
       productImg: mustardLehengaTop,
       alt: "product photo",
       title: "Women Product Name",
       desc: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
-      productImgLarge: mustardLehengaTop,
+      productImgLarge: mustardLehengaTopLarge,
     },
 
     {
-      productId: "w08",
-      productImg: greyJacket,
-      alt: "product photo",
-      title: "Women Product Name",
-      desc: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
-      productImgLarge: oneShoulderDress,
-    },
-
-    {
-      productId: "w09",
+      productId: "w07",
       productImg: orangeFlowerPrint,
       alt: "product photo",
       title: "Women Product Name",
       desc: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
-      productImgLarge: orangeFlowerPrint,
+      productImgLarge: orangeFlowerPrintLarge,
     },
 
     {
-      productId: "w010",
+      productId: "w08",
       productImg: pinkCapeSleevesGown,
       alt: "product photo",
       title: "Women Product Name",
       desc: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
-      productImgLarge: pinkCapeSleevesGown,
+      productImgLarge: pinkCapeSleevesGownLarge,
     },
 
     {
-      productId: "w11",
+      productId: "w09",
       productImg: pinkJacket,
       alt: "product photo",
       title: "Women Product Name",
       desc: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
-      productImgLarge: pinkJacket,
+      productImgLarge: pinkJacketLarge,
     },
 
     {
-      productId: "w12",
+      productId: "w10",
       productImg: brocadeDress,
       alt: "product photo",
       title: "Women Product Name",
       desc: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
-      productImgLarge: brocadeDress,
+      productImgLarge: brocadeDressLarge,
+    },
+
+    {
+      productId: "w11",
+      productImg: oneShoulderDress,
+      alt: "product photo",
+      title: "Women Product Name",
+      desc: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      productImgLarge: oneShoulderDress,
     },
 
   ]
