@@ -5,6 +5,7 @@ import HowItWorks from '../../HowItWorks/Containers/HowItWorksContainer';
 import Reviews from '../../Reviews/Containers/ReviewsContainer';
 import {CONSTANTS} from '../../Common/Constants';
 import cardImg from '../../../img/card.jpg';
+import coverImg from '../../../img/cover.jpg';
 import './HomePage.scss';
 
 export default class HomePageComponent extends Component{
@@ -13,13 +14,15 @@ export default class HomePageComponent extends Component{
     return (
       <React.Fragment>
         
-        <picture>
+        {/* <picture>
           <source srcSet="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=3072" media="(min-width: 1440px)" /> 
           <source srcSet="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=1440" media="(min-width: 1024px)" /> 
           <source srcSet="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=1229" media="(min-width: 640px)" /> 
           <source srcSet="https://lsco3.scene7.com/is/image/lsco/A2_TruckerJacket_Mobile?$ZF$&amp;wid=640" media="(min-width: 320px)" /> 
           <img className="heroImg" src="https://lsco.scene7.com/is/image/lsco/A2_TruckerJacket_Desktop?$ZF$&amp;wid=1440" alt="TRUCKER JACKETS" />
-        </picture>
+        </picture> */}
+
+        <img className="heroImg" src={coverImg} alt="Cover img" />
 
         {/* Maybe move the below cards code into a componenet */}
         <div className="card-container margin-v">

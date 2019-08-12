@@ -32,7 +32,18 @@
   &.compact{
     width: 120px;
     top: 10px;
-    left: 1%;
+    left: 35%;
     transform: none;
   }
 }
+
+// Media queries
+// -------------------------
+@media only screen and (min-width: $screen-sm) {
+  .fixed-logo{
+    &.compact{
+      left: 2%;
+    }
+  }
+}
+
