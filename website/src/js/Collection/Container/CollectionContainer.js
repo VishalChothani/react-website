@@ -25,7 +25,7 @@ class CollectionContainer extends Component{
           collectionData.map((collectionData) => (
             <Card key={collectionData.productId}>
               <Link to={"/"+category+"/product/"+collectionData.productId}>
-                <img onClick={() => {ProductClicked(collectionData)}} className="responsive-img margin-bot-sm" src={collectionData.productImg} alt={collectionData.alt} />
+                <img onClick={() => {ProductClicked(collectionData)}} className="responsive-img margin-bot-sm model-img" src={collectionData.productImg} alt={collectionData.alt} />
                 <div className="h4 product-title margin-bot align-center">{collectionData.title}</div>
               </Link>
             </Card>
