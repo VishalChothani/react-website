@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/static/media/pinkCapeSleevesGown.34c27f95.jpg"
   },
   {
-    "revision": "c0a14aa9595bbd5459f1",
-    "url": "/static/css/main.9a42efda.chunk.css"
+    "revision": "bad6a3dcb84d3f6b954f",
+    "url": "/static/css/main.1f40309f.chunk.css"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/static/media/slick.f97e3bbf.svg"
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "5c72e9d1846706cf2ef5",
-    "url": "/static/js/1.5c72e9d1.chunk.js"
+    "revision": "adb24a4cd4797389ae6f",
+    "url": "/static/js/1.adb24a4c.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/static/media/orangeFlowerPrint.2972d243.jpg"
   },
   {
-    "revision": "c0a14aa9595bbd5459f1",
-    "url": "/static/js/main.c0a14aa9.chunk.js"
+    "revision": "bad6a3dcb84d3f6b954f",
+    "url": "/static/js/main.bad6a3dc.chunk.js"
   },
   {
     "revision": "70b2781e1ef12b0e66ca4325bba1a30f",
@@ -140,23 +140,23 @@ self.__precacheManifest = [
     "url": "/static/media/pre-loader-background.6ab4e42b.jpg"
   },
   {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/static/media/slick.ced611da.eot"
-  },
-  {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/static/media/slick.d41f55a7.ttf"
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/static/media/slick.f97e3bbf.svg"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "5c72e9d1846706cf2ef5",
-    "url": "/static/css/1.069ecbcb.chunk.css"
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/static/media/slick.ced611da.eot"
   },
   {
-    "revision": "72c9ae81f45a5ae7aadc83b672545bf2",
+    "revision": "adb24a4cd4797389ae6f",
+    "url": "/static/css/1.e28b1de8.chunk.css"
+  },
+  {
+    "revision": "66185afbb78ada0889d65759a64603f5",
     "url": "/index.html"
   }
 ];
