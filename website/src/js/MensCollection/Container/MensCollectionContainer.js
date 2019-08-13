@@ -11,7 +11,7 @@ class MensCollectionContainer extends Component{
     // } = this.props;
     return(
       <section className="cateogry-collection bootstrap-grid">
-        <div className="h2 margin-v align-center capitalize">Mens</div>
+        <div className="h2 margin-v align-center capitalize">Men</div>
         {/* <CollectionContainer collectionData={menData} category={CONSTANTS.pages.men} /> */}
         <div className="container">
           <div className="row">
