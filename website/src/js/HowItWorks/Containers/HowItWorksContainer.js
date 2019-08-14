@@ -19,7 +19,7 @@ class HowItWorksContainer extends Component{
           <HowItWorksComponent howItWorksData={howItWorksData} />
         </div>
         {/* TODO: Make a button component */}
-        <div className="margin-top align-center">
+        <div className="margin-v align-center">
           <Link to={"/"+CONSTANTS.pages.contact} id="how-to-contact" className="button h4"> Contact us Now</Link>
         </div>
       </section>
