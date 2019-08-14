@@ -3,6 +3,8 @@ import classNames from 'classnames';
 import configurationService from '../../Common/ConfigurationService';
 import { connect } from 'react-redux';
 import HowItWorksComponent from '../Component/HowItWorksComponent';
+import {CONSTANTS} from '../../Common/Constants';
+import { Link } from 'react-router-dom';
 
 class HowItWorksContainer extends Component{
   render(){
@@ -15,6 +17,10 @@ class HowItWorksContainer extends Component{
         <div className="h2 align-center margin-bot relative heading heading-black">How It Works</div>
         <div className="how-it-works-section padding-top">
           <HowItWorksComponent howItWorksData={howItWorksData} />
+        </div>
+        {/* TODO: Make a button component */}
+        <div className="margin-top align-center">
+          <Link to={"/"+CONSTANTS.pages.contact} id="how-to-contact" className="button h4"> Contact us Now</Link>
         </div>
       </section>
     )

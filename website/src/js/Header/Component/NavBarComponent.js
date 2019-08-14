@@ -27,7 +27,7 @@ export default class NavBarComponent extends Component{
         className={classNames('h3 padding-v-sm uppercase pointer', {'snapchat': headerList===this.props.activeHeaderOption})}
         key={headerList} 
         onClick={ () => { this.activateHeaderOption(headerList) } }>
-          <Link to={"/"+headerList}>
+          <Link to={"/"+headerList} id={"nav-bar-"+headerList}>
             {headerList}
           </Link>
         </li> 
@@ -42,8 +42,8 @@ export default class NavBarComponent extends Component{
     return(
       <React.Fragment>
         <header className="header-icon pointer">
-          { !isNavBarOpen && <span className="fas fa-bars" onClick={() => this.toggleMobileNavBar()}></span> }
-          { isNavBarOpen && <span className="fas fa-times white" onClick={() => this.toggleMobileNavBar()}></span> }
+          { !isNavBarOpen && <span className="fas fa-bars" id="menu-bar-open" onClick={() => this.toggleMobileNavBar()}></span> }
+          { isNavBarOpen && <span className="fas fa-times white" id="menu-bar-close" onClick={() => this.toggleMobileNavBar()}></span> }
         </header>
         { isNavBarOpen &&
           <nav className="nav-bar">

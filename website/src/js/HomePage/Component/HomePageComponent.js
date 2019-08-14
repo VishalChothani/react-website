@@ -21,21 +21,21 @@ export default class HomePageComponent extends Component{
         {/* Maybe move the below cards code into a componenet */}
         <div className="card-container margin-v">
           <Card attention={true}>
-            <Link to={"/"+CONSTANTS.pages.men}>
+            <Link to={"/"+CONSTANTS.pages.men} id="card-men">
               <img className="responsive-img" src={cardImg} alt="card1" />
               <div className="h2 card-content align-center width-full">Men</div>
             </Link>
           </Card>
           
           <Card attention={true}>
-            <Link to={"/"+CONSTANTS.pages.women}>
+            <Link to={"/"+CONSTANTS.pages.women} id="card-women">
               <img className="responsive-img" src={cardImg} alt="card2" />
               <div className="h2 card-content align-center width-full">Women</div>
             </Link>
           </Card>
           
           <Card attention={true}>
-            <Link to={"/"+CONSTANTS.pages.kids}>
+            <Link to={"/"+CONSTANTS.pages.kids} id="card-kids">
               <img className="responsive-img" src={cardImg} alt="card3" />
               <div className="h2 card-content align-center width-full">Kids</div>
             </Link>

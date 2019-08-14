@@ -23,7 +23,7 @@ export default class ContactUsComponent extends Component{
                 <div className="contact-us-phone align-center">
                   <span className="contact-us-icon fas fa-mobile align-center" />
                   <div className="h3 uppercase margin-top-10">Phone</div>
-                  <div className="h5 margin-top-sm">4086469837</div>
+                  <div className="h5 margin-top-sm">+91 89285888222</div>
                 </div>
               </div>
 
@@ -31,7 +31,7 @@ export default class ContactUsComponent extends Component{
                 <div className="contact-us-email align-center">
                   <span className="contact-us-icon fas fa-envelope align-center" />
                   <div className="h3 uppercase margin-top-10">Email</div>
-                  <div className="h5 margin-top-sm">neha@gmail.com</div>
+                  <div className="h5 margin-top-sm">nehachothani@gmail.com</div>
                 </div>
               </div>
 
@@ -40,16 +40,16 @@ export default class ContactUsComponent extends Component{
             <div className="row">
               <div className="col-xs-12 col-sm-offset-2 col-sm-8">
                 <div className="social-media-icons margin-top">
-                  <a href={CONSTANTS.facebookLink} target="_blank" rel="noopener noreferrer">
+                  <a href={CONSTANTS.facebookLink} target="_blank" rel="noopener noreferrer" id="contact-facebook">
                     <span className="fab fa-facebook-square facebook" />
                   </a>
-                  <a href={CONSTANTS.instagramLink} target="_blank" rel="noopener noreferrer">
+                  <a href={CONSTANTS.instagramLink} target="_blank" rel="noopener noreferrer" id="contact-instagram">
                     <span className="fab fa-instagram instagram" />
                   </a>
-                  <a href={CONSTANTS.whatsappLink} target="_blank" rel="noopener noreferrer">
+                  <a href={CONSTANTS.whatsappLink} target="_blank" rel="noopener noreferrer" id="contact-whatsapp">
                     <span className="fab fa-whatsapp-square whatsapp" />
                   </a>
-                  <a href={CONSTANTS.snapchatLink} target="_blank" rel="noopener noreferrer">
+                  <a href={CONSTANTS.snapchatLink} target="_blank" rel="noopener noreferrer" id="contact-snapchat">
                     <span className="fab fa-snapchat-square snapchat" />
                   </a>
                 </div>
