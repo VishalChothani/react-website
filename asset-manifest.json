@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.fa7bc270.chunk.css",
-  "main.js": "/static/js/main.ebd4cca6.chunk.js",
-  "main.js.map": "/static/js/main.ebd4cca6.chunk.js.map",
+  "main.js": "/static/js/main.ca5e2958.chunk.js",
+  "main.js.map": "/static/js/main.ca5e2958.chunk.js.map",
   "static/css/1.4cf6d690.chunk.css": "/static/css/1.4cf6d690.chunk.css",
   "static/js/1.60faf265.chunk.js": "/static/js/1.60faf265.chunk.js",
   "static/js/1.60faf265.chunk.js.map": "/static/js/1.60faf265.chunk.js.map",
@@ -34,14 +34,14 @@
   "static/media/comingSoon1.png": "/static/media/comingSoon1.59d58c55.png",
   "static/media/label.jpeg": "/static/media/label.80711c7a.jpeg",
   "static/media/coverImgDesktop.jpg": "/static/media/coverImgDesktop.b29d6ae0.jpg",
-  "static/media/coverImgMobile.jpg": "/static/media/coverImgMobile.05d225fd.jpg",
+  "static/media/coverImgMobile.jpg": "/static/media/coverImgMobile.543d486f.jpg",
   "static/media/logo.png": "/static/media/logo.38d41988.png",
   "static/media/map.png": "/static/media/map.fcf29834.png",
   "static/media/PreLoader.scss": "/static/media/pre-loader-background.6ab4e42b.jpg",
-  "static/media/Carousel.scss": "/static/media/slick.f97e3bbf.svg",
-  "static/css/1.4cf6d690.chunk.css.map": "/static/css/1.4cf6d690.chunk.css.map",
+  "static/media/Carousel.scss": "/static/media/slick.b7c9e1e4.woff",
   "static/css/main.fa7bc270.chunk.css.map": "/static/css/main.fa7bc270.chunk.css.map",
+  "static/css/1.4cf6d690.chunk.css.map": "/static/css/1.4cf6d690.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.b69cc1a5b711cb92947b87f32808b8df.js": "/precache-manifest.b69cc1a5b711cb92947b87f32808b8df.js",
+  "precache-manifest.b43e5b5b3f10feddd6c536e0fe8879c2.js": "/precache-manifest.b43e5b5b3f10feddd6c536e0fe8879c2.js",
   "service-worker.js": "/service-worker.js"
 }
