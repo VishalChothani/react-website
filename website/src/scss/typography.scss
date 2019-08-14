@@ -11,8 +11,8 @@ html {
 body {
   @include font-size(14px);
   @include font-prompt;
-  color: $white;
-  background-color: $black;
+  color: $black;
+  background-color: $gold-brown;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -105,11 +105,17 @@ h6, .h6 {
     left: 45%;
     bottom: -18%;
   }
-  &.heading-white{
+  &.heading-black{
     &:after{
-      background-color: $white;
+      background-color: $black;
     }
   }
+}
+.mobile{
+  display: block;
+}
+.desktop{
+  display: none;
 }
 
 // Media queries
@@ -126,5 +132,11 @@ h6, .h6 {
   }
   h4, .h4 {
     @include h4-d;
+  }
+  .mobile{
+    display: none;
+  }
+  .desktop{
+    display: block;
   }
 }

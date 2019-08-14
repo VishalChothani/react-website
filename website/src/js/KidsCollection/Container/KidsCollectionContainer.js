@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { connect } from 'react-redux';
 // import CollectionContainer from '../../Collection/Container/CollectionContainer';
 // import {CONSTANTS} from '../../Common/Constants';
-import comingSoon from '../../../img/comingSoon.png';
+import comingSoon from '../../../img/comingSoon1.png';
 
 class KidsCollectionContainer extends Component{
   render(){

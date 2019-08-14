@@ -24,7 +24,7 @@ export default class NavBarComponent extends Component{
   renderList(){
     return this.props.headerList.map((headerList) => {
       return ( <li 
-        className={classNames('h3 padding-v-sm uppercase pointer', {'bright-green': headerList===this.props.activeHeaderOption})}
+        className={classNames('h3 padding-v-sm uppercase pointer', {'snapchat': headerList===this.props.activeHeaderOption})}
         key={headerList} 
         onClick={ () => { this.activateHeaderOption(headerList) } }>
           <Link to={"/"+headerList}>
