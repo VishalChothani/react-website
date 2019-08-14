@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "34c27f95e4d24eb76314e5c8d5f4c1db",
-    "url": "/static/media/pinkCapeSleevesGown.34c27f95.jpg"
+    "revision": "165aca6f0a7ec2fb5d05e13cd9ff2dae",
+    "url": "/static/media/brocadeDressLarge.165aca6f.jpg"
   },
   {
-    "revision": "bad6a3dcb84d3f6b954f",
-    "url": "/static/css/main.1f40309f.chunk.css"
+    "revision": "db9cd16fc5642de383eb",
+    "url": "/static/css/main.0b892667.chunk.css"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/static/media/slick.d41f55a7.ttf"
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "adb24a4cd4797389ae6f",
-    "url": "/static/js/1.adb24a4c.chunk.js"
+    "revision": "315753f449674646fb67",
+    "url": "/static/js/1.315753f4.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -24,16 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/card.5cd4192f.jpg"
   },
   {
-    "revision": "5a4e95375a24ab605b11a908802b4396",
-    "url": "/static/media/comingSoon.5a4e9537.png"
-  },
-  {
-    "revision": "71362201d3e34b58bf2f23509d5e04cf",
-    "url": "/static/media/greyJacket.71362201.jpg"
-  },
-  {
-    "revision": "a9e311a2c69a3b71c225b4a5ed7699dd",
-    "url": "/static/media/oneShoulderDress.a9e311a2.jpg"
+    "revision": "59d58c55c7ee126ff26c06929357faec",
+    "url": "/static/media/comingSoon1.59d58c55.png"
   },
   {
     "revision": "c8bf58d1674ea6a9d27cdcbb8611a996",
@@ -76,20 +68,24 @@ self.__precacheManifest = [
     "url": "/static/media/mustardLehengaTop.23f136c7.jpg"
   },
   {
+    "revision": "a9e311a2c69a3b71c225b4a5ed7699dd",
+    "url": "/static/media/oneShoulderDress.a9e311a2.jpg"
+  },
+  {
     "revision": "2972d243e6ef3dd04933b7456bca199c",
     "url": "/static/media/orangeFlowerPrint.2972d243.jpg"
   },
   {
-    "revision": "bad6a3dcb84d3f6b954f",
-    "url": "/static/js/main.bad6a3dc.chunk.js"
+    "revision": "34c27f95e4d24eb76314e5c8d5f4c1db",
+    "url": "/static/media/pinkCapeSleevesGown.34c27f95.jpg"
   },
   {
     "revision": "70b2781e1ef12b0e66ca4325bba1a30f",
     "url": "/static/media/pinkJacket.70b2781e.jpg"
   },
   {
-    "revision": "165aca6f0a7ec2fb5d05e13cd9ff2dae",
-    "url": "/static/media/brocadeDressLarge.165aca6f.jpg"
+    "revision": "db9cd16fc5642de383eb",
+    "url": "/static/js/main.db9cd16f.chunk.js"
   },
   {
     "revision": "eb8c19697ec8251a887a37d5c02f06d5",
@@ -108,6 +104,10 @@ self.__precacheManifest = [
     "url": "/static/media/mustardLehengaTopLarge.b24a3046.jpg"
   },
   {
+    "revision": "17ba7dc1f0f673d27482128203af84cb",
+    "url": "/static/media/oneShoulderDressLarge.17ba7dc1.jpg"
+  },
+  {
     "revision": "23b4efda5419c90233fd7efadecde955",
     "url": "/static/media/orangeFlowerPrintLarge.23b4efda.jpg"
   },
@@ -124,8 +124,12 @@ self.__precacheManifest = [
     "url": "/static/media/label.80711c7a.jpeg"
   },
   {
-    "revision": "8792b22e44eaa701da374a4686554483",
-    "url": "/static/media/cover.8792b22e.jpg"
+    "revision": "b29d6ae08af723545d24fa57a33ec687",
+    "url": "/static/media/coverImgDesktop.b29d6ae0.jpg"
+  },
+  {
+    "revision": "05d225fd4873f2d56f3ebc226c47371b",
+    "url": "/static/media/coverImgMobile.05d225fd.jpg"
   },
   {
     "revision": "38d41988bbf09cee8a31252a9785105b",
@@ -136,27 +140,31 @@ self.__precacheManifest = [
     "url": "/static/media/map.fcf29834.png"
   },
   {
+    "revision": "71362201d3e34b58bf2f23509d5e04cf",
+    "url": "/static/media/greyJacket.71362201.jpg"
+  },
+  {
     "revision": "6ab4e42bcb70a71724468d6d96ee5cfc",
     "url": "/static/media/pre-loader-background.6ab4e42b.jpg"
-  },
-  {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/static/media/slick.f97e3bbf.svg"
-  },
-  {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/static/media/slick.ced611da.eot"
   },
   {
-    "revision": "adb24a4cd4797389ae6f",
-    "url": "/static/css/1.e28b1de8.chunk.css"
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "66185afbb78ada0889d65759a64603f5",
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/static/media/slick.d41f55a7.ttf"
+  },
+  {
+    "revision": "315753f449674646fb67",
+    "url": "/static/css/1.cc5e05d2.chunk.css"
+  },
+  {
+    "revision": "2cf349157dcbf3120c8729face81c9fd",
     "url": "/index.html"
   }
 ];
