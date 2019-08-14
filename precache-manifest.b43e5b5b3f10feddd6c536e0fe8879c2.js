@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/pinkJacket.70b2781e.jpg"
   },
   {
-    "revision": "ebd4cca630a725c3b56c",
+    "revision": "ca5e2958a2be37eb81ca",
     "url": "/static/css/main.fa7bc270.chunk.css"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/static/media/slick.f97e3bbf.svg"
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "60faf2655c300758cf10",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/static/media/pinkCapeSleevesGown.34c27f95.jpg"
   },
   {
-    "revision": "ebd4cca630a725c3b56c",
-    "url": "/static/js/main.ebd4cca6.chunk.js"
+    "revision": "ca5e2958a2be37eb81ca",
+    "url": "/static/js/main.ca5e2958.chunk.js"
   },
   {
     "revision": "165aca6f0a7ec2fb5d05e13cd9ff2dae",
@@ -128,8 +128,8 @@ self.__precacheManifest = [
     "url": "/static/media/coverImgDesktop.b29d6ae0.jpg"
   },
   {
-    "revision": "05d225fd4873f2d56f3ebc226c47371b",
-    "url": "/static/media/coverImgMobile.05d225fd.jpg"
+    "revision": "543d486f40cb6bff93898666ce6c59fc",
+    "url": "/static/media/coverImgMobile.543d486f.jpg"
   },
   {
     "revision": "38d41988bbf09cee8a31252a9785105b",
@@ -148,8 +148,8 @@ self.__precacheManifest = [
     "url": "/static/media/slick.ced611da.eot"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/static/media/slick.b7c9e1e4.woff"
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/static/media/slick.f97e3bbf.svg"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
@@ -160,7 +160,7 @@ self.__precacheManifest = [
     "url": "/static/css/1.4cf6d690.chunk.css"
   },
   {
-    "revision": "eabdbb4fd070b95adc5d7705c660b0a1",
+    "revision": "56dcff05e45984b38e546990edba7cc6",
     "url": "/index.html"
   }
 ];
