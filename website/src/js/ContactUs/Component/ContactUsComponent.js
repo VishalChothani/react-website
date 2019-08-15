@@ -23,7 +23,7 @@ export default class ContactUsComponent extends Component{
                 <div className="contact-us-phone align-center">
                   <span className="contact-us-icon fas fa-mobile align-center" />
                   <div className="h3 uppercase margin-top-10">Phone</div>
-                  <div className="h5 margin-top-sm">+91 89285888222</div>
+                  <div className="h5 margin-top-sm">+91 8928588222</div>
                 </div>
               </div>
 

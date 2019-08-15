@@ -3,7 +3,7 @@ export default () => {
     {
       "icon": "fa-calendar-alt",
       "title": "Appointment",
-      "desc": "Call or message to book an appointment at +91 89285888222 or visit the store."
+      "desc": "Call or message to book an appointment at +91 8928588222 or visit the store."
     },
 
     {
