@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/brocadeDressLarge.165aca6f.jpg"
   },
   {
-    "revision": "7bc14014ab8576116d13",
+    "revision": "1e240490094344eb4dfb",
     "url": "/static/css/main.c1921821.chunk.css"
   },
   {
@@ -84,8 +84,8 @@ self.__precacheManifest = [
     "url": "/static/media/pinkJacket.70b2781e.jpg"
   },
   {
-    "revision": "7bc14014ab8576116d13",
-    "url": "/static/js/main.7bc14014.chunk.js"
+    "revision": "1e240490094344eb4dfb",
+    "url": "/static/js/main.1e240490.chunk.js"
   },
   {
     "revision": "eb8c19697ec8251a887a37d5c02f06d5",
@@ -164,7 +164,7 @@ self.__precacheManifest = [
     "url": "/static/css/1.138626b1.chunk.css"
   },
   {
-    "revision": "ab62cc35078f768f94b6b255ec0541e9",
+    "revision": "52cf90177ccd06fbb38ce03c64990f6c",
     "url": "/index.html"
   }
 ];
