@@ -92,27 +92,27 @@ ul{
 
 // Borders
 .border {
-  border: 1px solid $gray-light;
+  border: 1px solid $black;
 }
 .border-top{
-  border-top: 1px solid $gray-light;
+  border-top: 1px solid $black;
 }
 .border-right {
-  border-right: 1px solid $gray-light;
+  border-right: 1px solid $black;
 }
 .border-bot{
-  border-bottom: 1px solid $gray-light;
+  border-bottom: 1px solid $black;
 }
 .border-left {
-  border-left: 1px solid $gray-light;
+  border-left: 1px solid $black;
 }
 .border-v{
-  border-bottom: 1px solid $gray-light;
-  border-top: 1px solid $gray-light;
+  border-bottom: 1px solid $black;
+  border-top: 1px solid $black;
 }
 .border-h{
-  border-right: 1px solid $gray-light;
-  border-left: 1px solid $gray-light;
+  border-right: 1px solid $black;
+  border-left: 1px solid $black;
 }
 .border-none, .no-border {
   border: 0;

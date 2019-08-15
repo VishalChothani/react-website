@@ -1,11 +1,6 @@
 @import "../../../scss/mixins.scss";
 @import "../../../scss/variables.scss";
 
-.reviews{
-  background-color: $white;
-  color: $black;
-  padding-bottom: 30px;
-}
 .review-img{
   @include avatar-basic(150px,150px);
 }

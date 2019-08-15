@@ -41,8 +41,8 @@ export default () => {
       productId: "w02",
       productImg: crossOfStyle,
       alt: "product photo",
-      title: "Women Product Name",
-      desc: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      title: "Cross over style lehengas set",
+      desc: "With hues of summer and motifs borrowed from lush gardens, this cross over style printed fusion set is perfect addition to your wardrobe. This printed fine crepe dress features wrap blouse detailed choli, full sleeves and lehenga.",
       productImgLarge: crossOfStyleLarge,
     },
 
@@ -67,16 +67,16 @@ export default () => {
     {
       productId: "w05",
       productImg: mustardLehengaTop,
-      alt: "product photo",
-      title: "Women Product Name",
-      desc: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      alt: "Floral lehenga with embroidered blouse and ruffle dupatta",
+      title: "Floral lehenga with embroidered blouse and ruffle dupatta",
+      desc: "Modernly designed this yellow printed organza that is enhanced with floral print an ideal pick for the festive mood. Is features a sequence and thread embroidered blouse and green ruffle dupatta.",
       productImgLarge: mustardLehengaTopLarge,
     },
 
     {
       productId: "w06",
       productImg: orangeFlowerPrint,
-      alt: "product photo",
+      alt: "Floral printed lehenga set",
       title: "Floral printed lehenga set",
       desc: "Dressed in prints of wildflowers orange and vines from summer forest, this ivory based lehenga paired with contrast orange choli with pearl embroidery and dupatta is perfect for summer wedding.",
       productImgLarge: orangeFlowerPrintLarge,
@@ -103,9 +103,9 @@ export default () => {
     {
       productId: "w09",
       productImg: brocadeDress,
-      alt: "product photo",
-      title: "Women Product Name",
-      desc: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      alt: "Gold brocade Anarkali dress",
+      title: "Gold brocade Anarkali dress",
+      desc: "This mod Indo-western fusion ensemble features intricately handcrafted zardozi work, can be considered your trustiest desi attires when you want to don something fun yet elegant.",
       productImgLarge: brocadeDressLarge,
     },
 
