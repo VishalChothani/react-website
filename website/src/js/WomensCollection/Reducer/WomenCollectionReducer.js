@@ -42,7 +42,7 @@ export default () => {
       productImg: crossOfStyle,
       alt: "product photo",
       title: "Cross over style lehengas set",
-      desc: "With hues of summer and motifs borrowed from lush gardens, this cross over style printed fusion set is perfect addition to your wardrobe. This printed fine crepe dress features wrap blouse detailed choli, full sleeves and lehenga.",
+      desc: "With hues of summer and motifs borrowed from lush gardens, this cross over style printed fusion set is the perfect addition to your wardrobe. This printed fine crepe dress features a wrap blouse detailed choli, full sleeves and lehenga.",
       productImgLarge: crossOfStyleLarge,
     },
 

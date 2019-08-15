@@ -2,16 +2,16 @@
 @import "../../../scss/variables.scss";
 
 .how-it-works-content{
-  min-height: 80px;
+  min-height: 100px;
   .how-it-works-icon{
     position: relative;
     @include font-size(30px);
-    margin-top: 13px;
+    margin-top: 25px;
     &:after{
       content: '';
       position: absolute;
       width: 1px;
-      height: 45px;
+      height: 55px;
       background-color: $black;
       top: 40px;
       left: 15px;
@@ -31,7 +31,7 @@
   }
 }
 .button{
-  padding: 20px;
+  padding: 10px 50px;
   display: inline-block;
   border: 1px solid $black;
 }
@@ -51,7 +51,7 @@
   .how-it-works-content{
     display: inline;
     margin: 0 auto;
-    width: 160px;
+    width: 200px;
     .how-it-works-icon{
       margin: 0 0 15px 0;
       &:after{

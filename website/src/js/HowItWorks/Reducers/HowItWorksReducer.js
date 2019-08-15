@@ -3,25 +3,25 @@ export default () => {
     {
       "icon": "fa-calendar-alt",
       "title": "Appointment",
-      "desc": "Call or message me to book an appointment at +91 89285888222 or visit the store",
+      "desc": "Call or message to book an appointment at +91 89285888222 or visit the store."
     },
 
     {
       "icon": "fa-boxes",
       "title": "Personalization",
-      "desc": "I'll personalize your clothes based on your needs or perferences.",
+      "desc": "We'll work with you to select the perfect fabric, explore designs, and help highlight your style.",
     },
 
     {
       "icon": "fa-cut",
-      "title": "Custom Made",
-      "desc": "All clothes are custom made and hand assembled specially for you.",
+      "title": "Handcrafted garments",
+      "desc": "All our garments are hand-made from scratch under strict quality control.",
     },
 
     {
       "icon": "fa-smile-beam",
       "title": "Guaranteed fit",
-      "desc": "If it's not a prefect fit, we'll alter or remake it for free. Guaranteed",
+      "desc": "If it's not a perfect fit, we'll alter or remake it for free. Guaranteed.",
     },
   ]
 }
