@@ -19,11 +19,7 @@ export default class AboutUsComponent extends Component{
                 </div>
                 <div className={classNames('col-xs-12 col-sm-6 about-us-info', { 'margin-v' : isInMobile })}>
                   <div className="h5">
-                    A store that caters to the end to end needs of brides with designs those are unique, appealing and dreamy. 
-                    We are an exclusive line in the wedding segment offering quirky and eccentric Indo-western and traditional designs in a very contemporary way not just for the bride but the entire family. 
-                    NCL collections are very own customised designs in contemporary, classy, elegance while leaving the traditional touch intact. It’s a silhouette created with different fabrics that are truly mind blowing. 
-                    We are known for fabulous customising designs with the aesthetic of a dress using colors and embellishments. 
-                    Best Known For – Bridal collection, lehengas, ready-to-wear, party wear dresses, Indo-western clothes, lehengas, and suits.
+                    A store that caters to the end-to-end needs of brides with designs that are unique, appealing and dreamy. We are an exclusive line in the wedding segment offering modern, quirky and eccentric indo-western and traditional designs not just for the bride, but for the entire family. Neha Chothani Label collections encompass contemporary and classy elegance while maintaining a traditional touch. We specialize in bridal collections, lehengas, ready-to-wear garments, party-wear dresses, indo-western attire and suits. Every design is tailored specifically to each customer using color, embellishments and fabrics that are truly mind-blowing. 
                   </div>
                 </div>
               </div>
